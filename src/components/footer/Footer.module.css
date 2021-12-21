@@ -1,0 +1,18 @@
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 1rem;
+  border-top: 3px solid #000000;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: aquamarine;
+  box-shadow: 0 -2px 0 rgba(226, 0, 0, 0.4);
+
+  z-index: 10;
+}
+
+

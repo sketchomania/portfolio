@@ -3,7 +3,8 @@
 }
 
 .main {
-  margin-top: 6rem;
+  margin-top: 12rem;
+  margin-bottom: 12rem;
   min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
@@ -52,7 +53,7 @@
 }
 
 .description {
-  margin: 4rem 0;
+  margin: 3rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
 }
@@ -71,7 +72,8 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
+  max-width: 1020px;
+  background-color: aquamarine;
 }
 
 .card {
