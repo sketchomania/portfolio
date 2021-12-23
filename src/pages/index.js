@@ -1,11 +1,18 @@
 import Head from "next/head";
 import Image from "next/image";
 import Layout from "../layout/Layout";
+import { Section } from "../styles/GlobalComponents";
+import Welcome from "../components/welcome/Welcome";
+import Projects from "../components/projects/Projects";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
     <Layout>
+      <Section grid>
+        <Welcome />
+      </Section>
+      <Projects />
       <div className={styles.container}>
         <Head>
           <title>Vaibhav Portfolio</title>

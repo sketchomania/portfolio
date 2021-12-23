@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import GithubIcon from "../../assets/social/github.svg";
+import LinkedinIcon from "../../assets/social/linkedin.svg";
 // import styles from "./MainNavigationStyles.js";
 import {
   Div1,
@@ -54,7 +55,13 @@ const MainNavigation = () => {
             <Image height={48} width={48} src={GithubIcon} alt="github" />
           </SocialIcons>
           <SocialIcons href="https://github.com">
+            <Image height={48} width={48} src={LinkedinIcon} alt="github" />
+          </SocialIcons>
+          <SocialIcons href="https://github.com">
             <Image height={48} width={48} src={GithubIcon} alt="github" />
+          </SocialIcons>
+          <SocialIcons href="https://github.com">
+            <Image height={48} width={48} src={LinkedinIcon} alt="github" />
           </SocialIcons>
         </Div3>
       </Container>

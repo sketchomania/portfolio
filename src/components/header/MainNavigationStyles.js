@@ -61,9 +61,13 @@ export const NavLink = styled.a`
   }
 `;
 export const Li = styled.li`
-  font-size: 2rem;
+  // font-size: 2rem;
   line-height: 2rem;
+  margin: auto;
+  // padding: 1rem;
+  // margin: 0.5rem;
   color: #0070f3;
+  background-color: cyan;
   transition: 0.3s ease;
   &:hover {
     color: #761dcee7;
@@ -79,8 +83,8 @@ export const Li = styled.li`
 export const SocialIcons = styled.a`
   transition: 0.3s ease;
   color: white;
-  border-radius: 50px;
-  padding: 8px;
+  border-radius: 3rem;
+  padding: 0.5rem;
   &:hover {
     background-color: #212d45;
     transform: scale(1.2);

@@ -38,29 +38,7 @@ const Footer = () => {
           </span>
         </div>
         <div>
-          {/* <ContactIcons /> */}
-          <ul>
-            {social.map(({ id, name, link }) => (
-              <li key={id}>
-                <Link
-                  tabindex={id}
-                  href={link}
-                  target="_blank"
-                  title={name}
-                  rel="noopener noreferrer"
-                  aria-label={`follow me on ${name}`}
-                >
-                  <Image
-                    width={24}
-                    height={24}
-                    layout="fixed"
-                    src={icons[name]}
-                    alt={name}
-                  />
-                </Link>
-              </li>
-            ))}
-          </ul>
+          <ContactIcons />
         </div>
       </footer>
     </>
