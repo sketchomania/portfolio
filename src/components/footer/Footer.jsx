@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import social from "./social.json";
 import classes from "./Footer.module.css";
+import ContactIcons from "../contact/ContactIcons";
 
 import GithubIcon from "../../assets/social/github.svg";
 import TwitterIcon from "../../assets/social/twitter.svg";
@@ -36,12 +37,12 @@ const Footer = () => {
             </span>
           </span>
         </div>
-        <div >
+        <div>
+          {/* <ContactIcons /> */}
           <ul>
             {social.map(({ id, name, link }) => (
-              <li>
+              <li key={id}>
                 <Link
-                  key={id}
                   tabindex={id}
                   href={link}
                   target="_blank"

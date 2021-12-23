@@ -1,42 +1,63 @@
 import Link from "next/link";
-import classes from "./MainNavigation.module.css";
+import Image from "next/image";
+import GithubIcon from "../../assets/social/github.svg";
+// import styles from "./MainNavigationStyles.js";
+import {
+  Div1,
+  Div2,
+  Container,
+  NavLink,
+  Li,
+  Div3,
+  SocialIcons,
+} from "./MainNavigationStyles";
+import routes from "../../constants/routes";
 
 const MainNavigation = () => {
   return (
     <>
-      <header className={classes.header}>
-        <div>
-          <div className={classes.logo}>
-            <h1>
-              <Link href="/">
-                <a>Vaibhav Kushwaha</a>
+      <Container>
+        <Div1>
+          {routes
+            .filter((item) => item.index)
+            .map((route) => (
+              <Link tabindex={route.id} key={route.label} href={route.path}>
+                <a
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    color: "brown",
+                  }}
+                >
+                  {route.label}
+                </a>
               </Link>
-            </h1>
-          </div>
-          <nav className={classes.nav}>
-            <ul className={classes.navlist}>
-              <li>
-                <Link href="/">Home</Link>
-              </li>
-              <li>
-                <Link href="/projects">Projects</Link>
-              </li>
-              <li>
-                <Link href="/about">About</Link>
-              </li>
-              <li>
-                <Link href="/contact">Contact</Link>
-              </li>
-              <li>
-                <Link href="https://github.com/sketchomania">Github</Link>
-              </li>
-              <li>
-                <button>Light/Dark</button>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </header>
+            ))}
+        </Div1>
+        <Div2>
+          {routes
+            .filter((item) => !item.index)
+            .map((route) => (
+              <Li key={route.label}>
+                <Link tabindex={route.id} href={route.path}>
+                  {/* <NavLink>{route.label}</NavLink> */}
+                  <a>{route.label}</a>
+                </Link>
+              </Li>
+            ))}
+        </Div2>
+        <Div3>
+          <SocialIcons href="https://github.com">
+            <Image height={48} width={48} src={GithubIcon} alt="github" />
+          </SocialIcons>
+          <SocialIcons href="https://github.com">
+            <Image height={48} width={48} src={GithubIcon} alt="github" />
+          </SocialIcons>
+          <SocialIcons href="https://github.com">
+            <Image height={48} width={48} src={GithubIcon} alt="github" />
+          </SocialIcons>
+        </Div3>
+      </Container>
     </>
   );
 };

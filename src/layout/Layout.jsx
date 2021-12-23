@@ -1,13 +1,16 @@
 import MainNavigation from "../components/header/MainNavigation";
 import Footer from "../components/footer/Footer";
-import classes from "./Layout.module.css";
+import styles from "./Layout.module.css";
+
+// import Container from "../components/container/Container";
 
 const Layout = (props) => {
   return (
-    <div>
+    <div className={styles.container}>
       <MainNavigation />
-      <main className={classes.main}>{props.children}</main>
-      <Footer />
+      <main className={styles.main}>{props.children}</main>
+      {/* <Footer /> */}
+      <h2>hii</h2>
     </div>
   );
 };
