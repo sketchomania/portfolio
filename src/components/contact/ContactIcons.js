@@ -1,10 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
 import data from "../../constants/contact";
+import { StyledSocialIcons } from "./ContactIconsStyles";
 
 const ContactIcons = () => {
   return (
-    <ul>
+    <StyledSocialIcons>
       {data.map(({ id, label, link, icon }) => (
         <li key={id}>
           <Link
@@ -15,17 +16,19 @@ const ContactIcons = () => {
             rel="noopener noreferrer"
             aria-label={`follow me on ${label}`}
           >
-            <Image
-              width={24}
-              height={24}
-              layout="fixed"
-              src={icon}
-              alt={label}
-            />
+            <a>
+              <Image
+                width={32}
+                height={32}
+                layout="fixed"
+                src={icon}
+                alt={label}
+              />
+            </a>
           </Link>
         </li>
       ))}
-    </ul>
+    </StyledSocialIcons>
   );
 };
 

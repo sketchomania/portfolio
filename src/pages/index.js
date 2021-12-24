@@ -4,6 +4,10 @@ import Layout from "../layout/Layout";
 import { Section } from "../styles/GlobalComponents";
 import Welcome from "../components/welcome/Welcome";
 import Projects from "../components/projects/Projects";
+import Technologies from "../components/technologies/Technologies";
+import TimeLine from "../components/timeline/TimeLine";
+import Acomplishments from "../components/acomplishments/Acomplishments";
+import Footer from "../components/Footer-copy/Footer";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -12,7 +16,13 @@ export default function Home() {
       <Section grid>
         <Welcome />
       </Section>
+      {/* This "PROJECTS" part is causing error in the terminal */}
       <Projects />
+      <Technologies />
+      <TimeLine />
+      <Acomplishments />
+
+      <Footer />
       <div className={styles.container}>
         <Head>
           <title>Vaibhav Portfolio</title>

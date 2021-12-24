@@ -7,9 +7,10 @@ import styles from "./Layout.module.css";
 const Layout = (props) => {
   return (
     <div className={styles.container}>
+      <h2>hii</h2>
       <MainNavigation />
       <main className={styles.main}>{props.children}</main>
-      {/* <Footer /> */}
+      <Footer />
       <h2>hii</h2>
     </div>
   );
