@@ -1,39 +1,39 @@
 const data = [
   {
     id: 0,
-    link: "https://github.com/explore",
-    label: "Github",
-    icon: "/social/github.svg",
+    link: "mailto:vaibhavvast6529@gmail.com",
+    label: "Email",
+    icon: "/social/gmail.svg",
   },
   {
     id: 1,
-    link: "https://github.com/explore",
-    label: "Linkedin",
-    icon: "/social/linkedin.svg",
-  },
-  {
-    id: 2,
-    link: "https://github.com/explore",
+    link: "https://twitter.com/kush__vaibhav",
     label: "Twitter",
     icon: "/social/twitter.svg",
   },
   {
+    id: 2,
+    link: "https://github.com/sketchomania",
+    label: "Github",
+    icon: "/social/github.svg",
+  },
+  {
     id: 3,
-    link: "https://github.com/explore",
-    label: "Instagram",
-    icon: "/social/instagram.svg",
+    link: "https://www.linkedin.com/in/vaibhav-kushwaha",
+    label: "Linkedin",
+    icon: "/social/linkedin.svg",
   },
   {
     id: 4,
     link: "https://github.com/explore",
     label: "Angel List",
-    icon: "/social/twitter.svg",
+    icon: "/social/angellist-svgrepo-com.svg",
   },
   {
     id: 5,
-    link: "https://github.com/explore",
-    label: "Email",
-    icon: "/social/gmail.svg",
+    link: "https://www.instagram.com/vaibhav__kushwaha",
+    label: "Instagram",
+    icon: "/social/instagram.svg",
   },
 ];
 

@@ -1,6 +1,6 @@
 import Link from "next/link";
-import Image from "next/image";
-import social from "./social.json";
+// import Image from "next/image";
+// import social from "./social.json";
 import classes from "./Footer.module.css";
 import ContactIcons from "../contact/ContactIcons";
 

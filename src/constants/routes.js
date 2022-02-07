@@ -18,12 +18,12 @@ const routes = [
   {
     id: 3,
     label: "Resume",
-    path: "/resume",
+    path: "/",
   },
   {
     id: 4,
     label: "Stats",
-    path: "/stats",
+    path: "/",
   },
   {
     id: 5,

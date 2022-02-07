@@ -1,9 +1,10 @@
 import React from "react";
 
-import Image from "next/image";
-import GithubIcon from "../../assets/social/github.svg";
-import LinkedinIcon from "../../assets/social/linkedin.svg";
-import { SocialIcons } from "../header/MainNavigationStyles";
+// import Image from "next/image";
+// import GithubIcon from "../../assets/social/github.svg";
+// import LinkedinIcon from "../../assets/social/linkedin.svg";
+// import { SocialIcons } from "../header/MainNavigationStyles";
+import ContactIcons from "../contact/ContactIcons";
 import {
   CompanyContainer,
   FooterWrapper,
@@ -34,18 +35,7 @@ const Footer = () => {
           <Slogan>Innovating one project at a time </Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com">
-            <Image height={48} width={48} src={GithubIcon} alt="github" />
-          </SocialIcons>
-          <SocialIcons href="https://github.com">
-            <Image height={48} width={48} src={GithubIcon} alt="github" />
-          </SocialIcons>
-          <SocialIcons href="https://github.com">
-            <Image height={48} width={48} src={LinkedinIcon} alt="github" />
-          </SocialIcons>
-          <SocialIcons href="https://github.com">
-            <Image height={48} width={48} src={GithubIcon} alt="github" />
-          </SocialIcons>
+          <ContactIcons />
         </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>
