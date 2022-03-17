@@ -6,7 +6,7 @@ export const StyledSocialIcons = styled.ul`
   //   background-color: cyan;
 
   li {
-    width: 3rem;
+    width: 2rem;
     margin: 0 1rem;
     // border-radius: 3rem;
     // background-color: brown;

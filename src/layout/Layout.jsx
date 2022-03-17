@@ -5,11 +5,9 @@ import styles from "./Layout.module.css";
 const Layout = (props) => {
   return (
     <div className={styles.container}>
-      <h2>hii</h2>
-      <MainNavigation />
+      <MainNavigation toggleTheme={props.toggleTheme} theme={props.theme} />
       <main className={styles.main}>{props.children}</main>
       <Footer />
-      <h2>hii</h2>
     </div>
   );
 };

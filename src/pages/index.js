@@ -10,9 +10,9 @@ import Acomplishments from "../components/acomplishments/Acomplishments";
 import Footer from "../components/Footer-copy/Footer";
 import styles from "../styles/Home.module.css";
 
-export default function Home() {
+export default function Home(props) {
   return (
-    <Layout>
+    <Layout theme={props.theme} toggleTheme={props.toggleTheme}>
       <Section grid>
         <Welcome />
       </Section>

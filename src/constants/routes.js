@@ -22,11 +22,6 @@ const routes = [
   },
   {
     id: 4,
-    label: "Stats",
-    path: "/",
-  },
-  {
-    id: 5,
     label: "Contact",
     path: "/contact",
   },

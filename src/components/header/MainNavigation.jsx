@@ -2,19 +2,23 @@ import Link from "next/link";
 import Image from "next/image";
 import GithubIcon from "../../assets/social/github.svg";
 import LinkedinIcon from "../../assets/social/linkedin.svg";
+
+import ContactIcons from "../contact/ContactIcons";
 // import styles from "./MainNavigationStyles.js";
+// show theme button
+// use this component as bottom navigatot as well change button to show according to device
 import {
   Div1,
   Div2,
+  Div3,
   Container,
   NavLink,
   Li,
-  Div3,
   SocialIcons,
 } from "./MainNavigationStyles";
 import routes from "../../constants/routes";
 
-const MainNavigation = () => {
+const MainNavigation = ({ toggleTheme, theme }) => {
   return (
     <>
       <Container>
@@ -48,9 +52,19 @@ const MainNavigation = () => {
             ))}
         </Div2>
         <Div3>
-          <SocialIcons href="https://github.com">
-            <Image height={48} width={48} src={LinkedinIcon} alt="github" />
-          </SocialIcons>
+          <button
+            style={{
+              margin: "4px",
+              padding: "6px",
+              // alignItems: "center",
+              // textDecoration: "none",
+              border: "none",
+              backgroundColor: "transparent",
+            }}
+            onClick={toggleTheme}
+          >
+            {theme === "light" ? "🌒" : "☀️"}
+          </button>
           <SocialIcons href="https://github.com">
             <Image height={48} width={48} src={GithubIcon} alt="github" />
           </SocialIcons>
@@ -58,6 +72,9 @@ const MainNavigation = () => {
             <Image height={48} width={48} src={LinkedinIcon} alt="github" />
           </SocialIcons>
         </Div3>
+        {/* <Div3>
+          <ContactIcons />
+        </Div3> */}
       </Container>
     </>
   );

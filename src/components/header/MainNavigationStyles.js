@@ -7,7 +7,8 @@ export const Container = styled.header`
   grid-column-gap: 2rem;
   padding: 1rem;
   padding-top: 2rem;
-  background-color: #eaeaea;
+  border: 1px solid gray;
+  /* background-color: #eaeaea; */
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
@@ -33,8 +34,9 @@ export const Div2 = styled.div`
   display: flex;
   flex-direction: row;
   align-content: center;
+  /* overflow: hidden; */
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 2 / 2 / 2 / 5;
+    grid-area: 2 / 1 / 3 / 6;
   }
 `;
 
@@ -44,7 +46,6 @@ export const Div3 = styled.div`
   flex-direction: row;
   align-content: center;
   @media ${(props) => props.theme.breakpoints.sm} {
-    align-items: center;
     grid-area: 1 / 4 / 2 / 6;
   }
 `;
@@ -61,11 +62,12 @@ export const NavLink = styled.a`
   }
 `;
 export const Li = styled.li`
-  // font-size: 2rem;
-  line-height: 2rem;
+  /* font-size: 2rem; */
+  /* margin: 0.5rem; */
   margin: auto;
-  // padding: 1rem;
-  // margin: 0.5rem;
+  /* padding: auto; */
+  padding: 2px;
+  /* line-height: 2rem; */
   color: #0070f3;
   background-color: cyan;
   transition: 0.3s ease;
@@ -75,12 +77,14 @@ export const Li = styled.li`
     cursor: pointer;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 0.5rem;
+    margin: auto;
+    /* padding: 0.5rem; */
   }
 `;
 
 // Social
 export const SocialIcons = styled.a`
+  display: flex;
   transition: 0.3s ease;
   color: white;
   border-radius: 3rem;

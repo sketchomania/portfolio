@@ -1,11 +1,19 @@
+import { useState } from "react";
 import Theme from "../styles/theme";
 import "../styles/globals.css";
+// import { ThemeProvider } from "styled-components";
 
 function MyApp({ Component, pageProps }) {
+  const [theme, setTheme] = useState("light");
+
+  const toggleTheme = () => {
+    theme == "light" ? setTheme("dark") : setTheme("light");
+  };
+
   return (
     <>
-      <Theme>
-        <Component {...pageProps} />
+      <Theme theme={theme} toggleTheme={toggleTheme}>
+        <Component toggleTheme={toggleTheme} theme={theme} {...pageProps} />
       </Theme>
     </>
   );
