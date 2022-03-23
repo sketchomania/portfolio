@@ -20,12 +20,12 @@ const Technologies = () => (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range of technoligies in the we development world. From
-      Back-end to Design
+      I have worked with a range of technoligies in the we development world.
+      From Back-end to Design
     </SectionText>
     <List>
       <ListItem>
-        <Image src={LinkedinIcon} height={48} />
+        <Image src={LinkedinIcon} alt="LinkedinIcon" height={48} />
         <ListContainer>
           <ListTitle>Front-end</ListTitle>
           <ListParagraph>
@@ -35,7 +35,7 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <Image src={LinkedinIcon} height={48} />
+        <Image src={LinkedinIcon} alt="LinkedinIcon" height={48} />
         <ListContainer>
           <ListTitle>Back-end</ListTitle>
           <ListParagraph>

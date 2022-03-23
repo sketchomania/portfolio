@@ -1,4 +1,5 @@
 import { Container } from "./CellStyles";
+import Image from "next/image";
 
 const Cell = ({ data }) => {
   return (
@@ -13,7 +14,7 @@ const Cell = ({ data }) => {
           </time>
         </header>
         <a href={data.link} className="image">
-          <img
+          <Image
             src={`${process.env.PUBLIC_URL}${data.image}`}
             alt={data.title}
           />
