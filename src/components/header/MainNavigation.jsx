@@ -56,6 +56,7 @@ const MainNavigation = ({ toggleTheme, theme }) => {
             style={{
               margin: "4px",
               padding: "6px",
+              fontSize: "3rem",
               // alignItems: "center",
               // textDecoration: "none",
               border: "none",

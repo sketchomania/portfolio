@@ -1,11 +1,12 @@
 import React from "react";
+import Projects from "../components/projects/Projects";
 
-const Projects = () => {
+const Project = () => {
   return (
-    <div>
-      <h2>This is projects section</h2>
-    </div>
+    <>
+      <Projects />
+    </>
   );
 };
 
-export default Projects;
+export default Project;

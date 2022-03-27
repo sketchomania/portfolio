@@ -66,14 +66,15 @@ export const Li = styled.li`
   /* margin: 0.5rem; */
   margin: auto;
   /* padding: auto; */
-  padding: 2px;
+  padding: 6px;
   /* line-height: 2rem; */
   color: #0070f3;
-  background-color: cyan;
-  transition: 0.3s ease;
+  background-color: yellowgreen;
+  transition: 0.1s ease;
   &:hover {
     color: #761dcee7;
     opacity: 1;
+    transform: scale(1.1);
     cursor: pointer;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -85,7 +86,7 @@ export const Li = styled.li`
 // Social
 export const SocialIcons = styled.a`
   display: flex;
-  transition: 0.3s ease;
+  transition: 0.1s ease;
   color: white;
   border-radius: 3rem;
   padding: 0.5rem;

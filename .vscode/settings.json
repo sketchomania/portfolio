@@ -1,0 +1,9 @@
+{
+  "editor.mouseWheelZoom": true,
+  "diffEditor.wordWrap": "on",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.hover.delay": 300,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false
+}

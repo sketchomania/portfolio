@@ -1,25 +1,22 @@
 import styled from "styled-components";
 
 export const StyledSocialIcons = styled.ul`
+  list-style-type: none;
   display: flex;
-  padding: 1rem;
-  //   background-color: cyan;
+  /* padding: 1rem; */
+  /* padding: 0.5rem; */
+
+  /* border: 1px solid red; */
 
   li {
-    width: 2rem;
-    margin: 0 1rem;
-    // border-radius: 3rem;
-    // background-color: brown;
-    transition: 0.3s ease;
+    padding: 4px;
+    /* border: 1px solid red; */
+    transition: 0.1s ease;
+    /* border-radius: 3rem; */
     &:hover {
-    //   background-color: #212d45;
+      /* background-color: #212d45; */
       transform: scale(1.2);
       cursor: pointer;
-    }
-  }
-  @media screen and (min-width: 768px) {
-    li {
-      margin-left: 2rem;
     }
   }
 `;

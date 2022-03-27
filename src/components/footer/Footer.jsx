@@ -4,17 +4,17 @@ import Link from "next/link";
 import classes from "./Footer.module.css";
 import ContactIcons from "../contact/ContactIcons";
 
-import GithubIcon from "../../assets/social/github.svg";
-import TwitterIcon from "../../assets/social/twitter.svg";
-import LinkedinIcon from "../../assets/social/linkedin.svg";
-import EmailIcon from "../../assets/social/gmail.svg";
+// import GithubIcon from "../../assets/social/github.svg";
+// import TwitterIcon from "../../assets/social/twitter.svg";
+// import LinkedinIcon from "../../assets/social/linkedin.svg";
+// import EmailIcon from "../../assets/social/gmail.svg";
 
-const icons = {
-  Github: GithubIcon,
-  Twitter: TwitterIcon,
-  Email: EmailIcon,
-  Linkedin: LinkedinIcon,
-};
+// const icons = {
+//   Github: GithubIcon,
+//   Twitter: TwitterIcon,
+//   Email: EmailIcon,
+//   Linkedin: LinkedinIcon,
+// };
 
 const Footer = () => {
   return (

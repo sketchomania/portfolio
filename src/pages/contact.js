@@ -1,10 +1,11 @@
 import React from "react";
+import ContactIcons from "../components/contact/ContactIcons";
 
 const Contact = () => {
   return (
-    <div>
-      <h2>This is contact Section</h2>
-    </div>
+    <>
+      <ContactIcons />
+    </>
   );
 };
 
