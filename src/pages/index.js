@@ -7,7 +7,7 @@ import Projects from "../components/projects/Projects";
 import Technologies from "../components/technologies/Technologies";
 import TimeLine from "../components/timeline/TimeLine";
 import Acomplishments from "../components/acomplishments/Acomplishments";
-import Footer from "../components/Footer-copy/Footer";
+import Footer from "../components/footer-copy/Footer";
 import styles from "../styles/Home.module.css";
 
 export default function Home(props) {
