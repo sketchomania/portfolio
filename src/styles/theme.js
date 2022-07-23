@@ -8,9 +8,7 @@ const Theme = (props) => {
   return (
     <ThemeProvider theme={props.theme === "light" ? lightTheme : darkTheme}>
       <GlobalStyles />
-      <button onClick={props.toggleTheme}>Switch Theme</button>
       {props.children}
-      <p>hi 12</p>
     </ThemeProvider>
   );
 };

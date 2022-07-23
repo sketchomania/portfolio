@@ -3,6 +3,7 @@ import Link from "next/link";
 // import social from "./social.json";
 import classes from "./Footer.module.css";
 import ContactIcons from "../contact/ContactIcons";
+// import { LinkItem } from "../footer-copy/FooterStyles";
 
 // import GithubIcon from "../../assets/social/github.svg";
 // import TwitterIcon from "../../assets/social/twitter.svg";
@@ -21,12 +22,11 @@ const Footer = () => {
     <>
       <footer className={classes.footer}>
         <div>
-          <h2>Vaibhav kushwaha</h2>
           <span>
             {" "}
-            © Alll rights are reserved | {new Date().getFullYear()} | Made with{" "}
-            <span>
-              💛 by{" "}
+            Copyright © {new Date().getFullYear()} | 👨‍💻🛠💛 by{" "}
+              {/* <LinkItem>Vaibhav</LinkItem> */}
+            <span >
               <Link
                 href="https://github.com/sketchomania"
                 target="_blank"

@@ -25,6 +25,7 @@ const light = {
   bg: {
     body: "#E2E2E2",
     text: "#363537",
+    //  text: "#000000",
     toggleBorder: "#FFF'",
     gradient: "linear-gradient(#39598A, #79D7ED)",
   },
@@ -32,19 +33,15 @@ const light = {
 
 const dark = {
   bg: {
-    body: "#363537",
+    // body: "#363537",
+    // body: "#000000",
+    body: "#171717",
     text: "#FAFAFA",
     toggleBorder: "#6B8096",
-    gradient: "linear-gradient(#091236, #1E215D)",
+    // gradient: "linear-gradient(#091236, #1E215D)",
   },
 };
 
 export const lightTheme = { ...defaultTheme, ...light };
 export const darkTheme = { ...defaultTheme, ...dark };
-
-// screens: {
-//   sm: "480px",
-//   md: "768px",
-//   lg: "976px",
-//   xl: "1280px",
-// },
+// 640px

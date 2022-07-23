@@ -10,22 +10,26 @@ import Acomplishments from "../components/acomplishments/Acomplishments";
 import Footer from "../components/footer-copy/Footer";
 import styles from "../styles/Home.module.css";
 
-export default function Home(props) {
+const HomePage = (props) => {
   return (
     <Layout theme={props.theme} toggleTheme={props.toggleTheme}>
       <Section grid>
         <Welcome />
       </Section>
       {/* This "PROJECTS" part is causing error in the terminal */}
+      <hr />
       <Projects />
+      <hr />
       <Technologies />
+      <hr />
       <TimeLine />
+      <hr />
       <Acomplishments />
-
+      <hr />
       <Footer />
       <div className={styles.container}>
         <Head>
-          <title>Vaibhav Portfolio</title>
+          <title>Vaibhav 👨‍💻</title>
           <meta
             name="description"
             content="Vaibhav Kushwaha portfolio website"
@@ -105,4 +109,6 @@ export default function Home(props) {
       </div>
     </Layout>
   );
-}
+};
+
+export default HomePage;

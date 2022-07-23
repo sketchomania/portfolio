@@ -1,15 +1,16 @@
 import React from "react";
-import Timeline from "../components/timeline/TimeLine";
+import ContactIcons from "../components/contact/ContactIcons";
 import Layout from "../layout/Layout";
 
-const About = (props) => {
+const Resume = (props) => {
   return (
     <>
       <Layout theme={props.theme} toggleTheme={props.toggleTheme}>
-        <Timeline />
+        {"Resume"}
+        <ContactIcons />
       </Layout>
     </>
   );
 };
 
-export default About;
+export default Resume;

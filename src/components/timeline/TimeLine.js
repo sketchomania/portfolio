@@ -66,6 +66,7 @@ const Timeline = () => {
 
   return (
     <Section>
+      <SectionDivider />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
         I am a 3rd year student persuing my Bachelo&apos;s degree
@@ -106,7 +107,6 @@ const Timeline = () => {
           </CarouselButton>
         ))}
       </CarouselButtons>
-      <SectionDivider />
     </Section>
   );
 };

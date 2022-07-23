@@ -7,23 +7,28 @@ const routes = [
   },
   {
     id: 1,
-    label: "About",
-    path: "/about",
-  },
-  {
-    id: 2,
     label: "Projects",
     path: "/projects",
   },
   {
-    id: 3,
-    label: "Resume",
+    id: 2,
+    label: "Blogs",
     path: "/",
   },
   {
+    id: 5,
+    label: "Artworks",
+    path: "/artworks",
+  },
+  {
+    id: 3,
+    label: "About",
+    path: "/about",
+  },
+  {
     id: 4,
-    label: "Contact",
-    path: "/contact",
+    label: "Resume",
+    path: "/resume",
   },
 ];
 

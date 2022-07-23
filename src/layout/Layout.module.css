@@ -1,11 +1,15 @@
 .container {
-    max-width: 1280px;
-    width: 100%;
-    margin: auto;
-  }
-  
-  .main {
-    background-color: #546266;
-    /* background-color: #0F1624; */
-  }
-  /* #0F1624 */
+  max-width: 1020px;
+  /* max-width: 1280px; */
+  width: 100%;
+  margin: auto;
+}
+
+.main {
+  background-color: #546266;
+  /* background-color: #0F1624; */
+  /* background-color: #000000; */
+  /* background-color: #968FEB; */
+  /* background-color: blueviolet; */
+  /* border: 1px solid gray; */
+}
