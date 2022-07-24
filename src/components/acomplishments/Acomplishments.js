@@ -2,8 +2,8 @@ import React from "react";
 
 import {
   Section,
-  SectionDivider,
   SectionTitle,
+  UnderlineGrow,
 } from "../../styles/GlobalComponents";
 import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
 
@@ -16,7 +16,9 @@ const data = [
 
 const Acomplishments = () => (
   <Section>
-    <SectionTitle>Personal Acomplishments</SectionTitle>
+    <UnderlineGrow alt>
+      <SectionTitle>Personal Acomplishments</SectionTitle>
+    </UnderlineGrow>
     <Boxes>
       {data.map((card, index) => (
         <Box key={index}>

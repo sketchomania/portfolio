@@ -4,23 +4,28 @@ import {
   Section,
   SectionText,
   SectionTitle,
+  UnderlineGrow,
 } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./WelcomeStyles";
 
-const Hero = () => {
+const Welcome = () => {
   return (
     <Section row nopadding>
       <LeftSection>
-        <SectionTitle main center>
-          Welcome To <br />
-          My Personal Portfolio
-        </SectionTitle>
-        <SectionText>Vaibhav Kushwaha 🙋‍♂️</SectionText>
-        <p>
-          I am a developer trying to learn new technologies, sharing my
-          experience and knowledge
-        </p>
+        <UnderlineGrow>
+          <SectionTitle main center>
+            Welcome To <br />
+            My Personal Portfolio
+          </SectionTitle>
+        </UnderlineGrow>
+        <SectionText>I&apos;m Vaibhav Kushwaha 🙋‍♂️</SectionText>
+        <UnderlineGrow>
+          <p>
+            I am a developer trying to learn new technologies, sharing my
+            experience and knowledge
+          </p>
+        </UnderlineGrow>
         <Button onClick={() => (window.location = "https://google.com")}>
           Learn more
         </Button>
@@ -29,4 +34,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Welcome;

@@ -11,7 +11,7 @@ export const StyledSocialIcons = styled.ul`
   li {
     padding: 4px;
     /* border: 1px solid red; */
-    transition: 0.1s ease;
+    transition: 0.2s ease;
     /* border-radius: 3rem; */
     &:hover {
       /* background-color: #212d45; */

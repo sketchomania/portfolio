@@ -13,9 +13,9 @@ import {
 } from "./TimeLineStyles";
 import {
   Section,
-  SectionDivider,
   SectionText,
   SectionTitle,
+  UnderlineGrow,
 } from "../../styles/GlobalComponents";
 import TimeLineData from "../../constants/timeline";
 
@@ -66,8 +66,9 @@ const Timeline = () => {
 
   return (
     <Section>
-      <SectionDivider />
-      <SectionTitle>About Me</SectionTitle>
+      <UnderlineGrow alt>
+        <SectionTitle>About Me</SectionTitle>
+      </UnderlineGrow>
       <SectionText>
         I am a 3rd year student persuing my Bachelo&apos;s degree
       </SectionText>

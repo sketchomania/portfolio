@@ -1,5 +1,6 @@
 const Colors = {
   white: "#ffffff",
+  whiteTrans: "rgba(255, 255, 255, 0.66)",
   black: "#000000",
   grey: "#cccccc",
   blue: "#0084FF",

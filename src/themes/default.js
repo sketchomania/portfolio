@@ -49,4 +49,4 @@ const dark = {
 
 export const lightTheme = { ...defaultTheme, ...light };
 export const darkTheme = { ...defaultTheme, ...dark };
-// 640px
+// 640px//600px

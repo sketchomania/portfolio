@@ -1,8 +1,8 @@
 import {
   Section,
-  SectionDivider,
   SectionText,
   SectionTitle,
+  UnderlineGrow,
 } from "../../styles/GlobalComponents";
 import {
   List,
@@ -16,9 +16,9 @@ import LinkedinIcon from "../../assets/social/linkedin.svg";
 
 const Technologies = () => (
   <Section>
-    <SectionDivider />
-    <br />
-    <SectionTitle>Technologies</SectionTitle>
+    <UnderlineGrow alt>
+      <SectionTitle>Technologies</SectionTitle>
+    </UnderlineGrow>
     <SectionText>
       I have worked with a range of technoligies in the we development world.
       From Back-end to Design

@@ -13,8 +13,8 @@ import {
 } from "./ProjectsStyles";
 import {
   Section,
-  SectionDivider,
   SectionTitle,
+  UnderlineGrow,
 } from "../../styles/GlobalComponents";
 import Cell from "./cell/Cell";
 import data from "../../constants/projects";
@@ -22,8 +22,9 @@ import data from "../../constants/projects";
 const Projects = () => {
   return (
     <Section nopadding>
-      <SectionDivider />
-      <SectionTitle main>Projects</SectionTitle>
+      <UnderlineGrow alt>
+        <SectionTitle main>Projects</SectionTitle>
+      </UnderlineGrow>
       <GridContainer>
         {data.map(
           ({ id, image, title, subtitle, visit, source, desc, tags, date }) => (
@@ -55,13 +56,3 @@ const Projects = () => {
 };
 
 export default Projects;
-{
-  /* 
-    {data.map((project) => (
-        <Cell 
-            key={project}
-            data={project.title
-        />
-    ))}
-  */
-}

@@ -1,11 +1,28 @@
 import React from "react";
 import Layout from "../layout/Layout";
+import {
+  Section,
+  SectionSubText,
+  SectionText,
+  SectionTitle,
+  UnderlineGrow,
+} from "../styles/GlobalComponents";
 
 const NotFound = (props) => (
   <>
     <Layout theme={props.theme} toggleTheme={props.toggleTheme}>
-      <h1>NOT FOUND</h1>
-      <p>You just hit a route that doesn&#39;t exist....😐</p>
+      <Section>
+        <UnderlineGrow alt>
+          <SectionTitle main>Not FOUND</SectionTitle>
+        </UnderlineGrow>
+        <SectionText>
+          You just hit a route that doesn&#39;t exist....😐
+        </SectionText>
+        <UnderlineGrow>
+          <SectionSubText>👉 Home Page</SectionSubText>
+        </UnderlineGrow>
+        <SectionSubText>👋</SectionSubText>
+      </Section>
     </Layout>
   </>
 );
