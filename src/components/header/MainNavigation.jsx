@@ -15,8 +15,10 @@ import {
   SocialIcons,
 } from "./MainNavigationStyles";
 import routes from "../../constants/routes";
+// import { useTheme } from "styled-components";
 
 const MainNavigation = ({ toggleTheme, theme }) => {
+  // const { theme2, setTheme2 } = useTheme();
   return (
     <>
       <Container>
@@ -45,9 +47,7 @@ const MainNavigation = ({ toggleTheme, theme }) => {
                 <Link tabindex={route.id} href={route.path}>
                   {/* <NavLink>{route.label}</NavLink> */}
                   <a>
-                    <SocialIcons>
-                      {route.label}
-                      </SocialIcons>
+                    <SocialIcons>{route.label}</SocialIcons>
                   </a>
                 </Link>
               </Li>
@@ -68,6 +68,19 @@ const MainNavigation = ({ toggleTheme, theme }) => {
           >
             {theme === "light" ? "🌒" : "☀️"}
           </button>
+          {/* <button
+            type="button"
+            style={{
+              margin: "4px",
+              padding: "6px",
+              fontSize: "3rem",
+              border: "none",
+              backgroundColor: "transparent",
+            }}
+            onClick={() => setTheme2(theme2 === "light" ? "dark" : "light")}
+          >
+            {theme2 === "light" ? "🌒" : "☀️"}
+          </button> */}
         </Div3>
         {/* <Div3>
           <ContactIcons />

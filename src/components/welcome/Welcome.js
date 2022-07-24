@@ -16,7 +16,7 @@ const Hero = () => {
           Welcome To <br />
           My Personal Portfolio
         </SectionTitle>
-        <SectionText>Hi Vaibhav Kushwaha here 🙋‍♂️</SectionText>
+        <SectionText>Vaibhav Kushwaha 🙋‍♂️</SectionText>
         <p>
           I am a developer trying to learn new technologies, sharing my
           experience and knowledge
