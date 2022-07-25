@@ -2,7 +2,7 @@ const routes = [
   {
     id: 0,
     index: true,
-    label: "Vaibhav Kushwaha",
+    label: "Vaibhav",
     path: "/",
   },
   {

@@ -17,18 +17,19 @@ const defaultTheme = {
   // Breakpoints for responsive design
   breakpoints: {
     sm: "screen and (max-width: 480px)",
-    md: "screen and (max-width: 768px)",
-    lg: "screen and (max-width: 976px)",
-    xl: "screen and (max-width: 1280px)",
+    md: "screen and (max-width: 680px)",
+    lg: "screen and (max-width: 880px)",
+    xl: "screen and (max-width: 1080px)",
   },
 };
 
 const light = {
   bg: {
-    body: "#E2E2E2",
-    text: "#363537",
-    //  text: "#000000",
-    toggleBorder: "#FFF'",
+    body: Colors.lightBody,
+    text: Colors.darkText,
+    textNoHover: Colors.darkText,
+    textHover: Colors.black,
+    toggleBorder: Colors.white,
     gradient: "linear-gradient(#39598A, #79D7ED)",
     gradStart: Colors.gradLightStart,
     gradEnd: Colors.gradEnd,
@@ -37,10 +38,10 @@ const light = {
 
 const dark = {
   bg: {
-    // body: "#363537",
-    // body: "#000000",
-    body: "#171717",
-    text: "#FAFAFA",
+    body: Colors.darkBody,
+    text: Colors.darkTextHover,
+    textNoHover: Colors.grey,
+    textHover: Colors.darkTextHover,
     toggleBorder: "#6B8096",
     gradStart: Colors.gradDarkStart,
     gradEnd: Colors.gradEnd,
@@ -50,3 +51,4 @@ const dark = {
 export const lightTheme = { ...defaultTheme, ...light };
 export const darkTheme = { ...defaultTheme, ...dark };
 // 640px//600px
+// 1280 976 768 480

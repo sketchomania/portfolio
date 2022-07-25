@@ -114,6 +114,21 @@ export const GradBorder = styled.div`
   transition: 0.4s;
 `;
 
+export const GradText = styled.span`
+  background-color: cyan;
+  background-size: 100%;
+  background-image: linear-gradient(
+    90deg,
+    ${(props) => props.theme.bg.gradStart} 0%,
+    ${(props) => props.theme.bg.gradEnd} 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+`;
+
 export const UnderlineGrow = styled.div`
   position: relative;
   margin-bottom: 5px;
