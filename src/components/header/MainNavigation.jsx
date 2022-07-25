@@ -15,6 +15,11 @@ import {
   SocialIcons,
 } from "./MainNavigationStyles";
 import routes from "../../constants/routes";
+import {
+  SectionSubText,
+  SectionText,
+  UnderlineGrow,
+} from "../../styles/GlobalComponents";
 // import { useTheme } from "styled-components";
 
 const MainNavigation = ({ toggleTheme, theme }) => {
@@ -31,7 +36,8 @@ const MainNavigation = ({ toggleTheme, theme }) => {
                   style={{
                     display: "flex",
                     alignItems: "center",
-                    color: "brown",
+                    fontWeight: 500,
+                    fontSize: 20,
                   }}
                 >
                   {route.label}
@@ -47,7 +53,12 @@ const MainNavigation = ({ toggleTheme, theme }) => {
                 <Link tabindex={route.id} href={route.path}>
                   {/* <NavLink>{route.label}</NavLink> */}
                   <a>
-                    <SocialIcons>{route.label}</SocialIcons>
+                    <UnderlineGrow>
+                      <p style={{ margin: 6, fontWeight: 300, fontSize: 18 }}>
+                        {route.label}
+                      </p>
+                    </UnderlineGrow>
+                    {/* <SocialIcons>{route.label}</SocialIcons> */}
                   </a>
                 </Link>
               </Li>
@@ -59,7 +70,7 @@ const MainNavigation = ({ toggleTheme, theme }) => {
               margin: "4px",
               padding: "6px",
               fontSize: "3rem",
-              // alignItems: "center",
+              alignItems: "center",
               // textDecoration: "none",
               border: "none",
               backgroundColor: "transparent",
@@ -68,23 +79,7 @@ const MainNavigation = ({ toggleTheme, theme }) => {
           >
             {theme === "light" ? "🌒" : "☀️"}
           </button>
-          {/* <button
-            type="button"
-            style={{
-              margin: "4px",
-              padding: "6px",
-              fontSize: "3rem",
-              border: "none",
-              backgroundColor: "transparent",
-            }}
-            onClick={() => setTheme2(theme2 === "light" ? "dark" : "light")}
-          >
-            {theme2 === "light" ? "🌒" : "☀️"}
-          </button> */}
         </Div3>
-        {/* <Div3>
-          <ContactIcons />
-        </Div3> */}
       </Container>
     </>
   );

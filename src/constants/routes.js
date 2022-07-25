@@ -18,7 +18,7 @@ const routes = [
   {
     id: 5,
     label: "Artworks",
-    path: "/artworks",
+    path: "/",
   },
   {
     id: 3,

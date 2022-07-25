@@ -12,6 +12,7 @@ import {
   Img,
 } from "./ProjectsStyles";
 import {
+  GradBorder,
   Section,
   SectionTitle,
   UnderlineGrow,
@@ -29,24 +30,28 @@ const Projects = () => {
         {data.map(
           ({ id, image, title, subtitle, visit, source, desc, tags, date }) => (
             <BlogCard key={id}>
-              <Img src={image} />
-              <TitleContent>
-                <HeaderThree title={title}>{title}</HeaderThree>
-                <Hr />
-              </TitleContent>
-              <CardInfo>{subtitle}</CardInfo>
-              <div>
-                <TitleContent>Stack</TitleContent>
-                <TagList>
-                  {tags.map((tag, i) => (
-                    <Tag key={i}>{tag}</Tag>
-                  ))}
-                </TagList>
-              </div>
-              <UtilityList>
-                <ExternalLinks href={source}>Code</ExternalLinks>
-                <ExternalLinks href={visit}>Live</ExternalLinks>
-              </UtilityList>
+              {/* <GradBorder> */}
+                <Img src={image} />
+                <TitleContent>
+                  <HeaderThree title={title}>{title}</HeaderThree>
+                  <Hr />
+                </TitleContent>
+                <CardInfo>{subtitle}</CardInfo>
+                <div>
+                  <TitleContent>Stack</TitleContent>
+                  <TagList>
+                    {tags.map((tag, i) => (
+                      <GradBorder>
+                        <Tag key={i}>{tag}</Tag>
+                      </GradBorder>
+                    ))}
+                  </TagList>
+                </div>
+                <UtilityList>
+                  <ExternalLinks href={source}>Code</ExternalLinks>
+                  <ExternalLinks href={visit}>Live</ExternalLinks>
+                </UtilityList>
+              {/* </GradBorder> */}
             </BlogCard>
           )
         )}

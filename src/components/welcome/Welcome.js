@@ -15,11 +15,10 @@ const Welcome = () => {
       <LeftSection>
         <UnderlineGrow>
           <SectionTitle main center>
-            Welcome To <br />
-            My Personal Portfolio
+            Vaibhav Kushwaha
           </SectionTitle>
         </UnderlineGrow>
-        <SectionText>I&apos;m Vaibhav Kushwaha 🙋‍♂️</SectionText>
+        <SectionText>I&apos;m Vaibhav Kushwaha 👋</SectionText>
         <UnderlineGrow>
           <p>
             I am a developer trying to learn new technologies, sharing my

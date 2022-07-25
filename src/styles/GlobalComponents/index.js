@@ -102,6 +102,18 @@ export const SectionSubText = styled.p`
   }
 `;
 
+export const GradBorder = styled.div`
+  text-align: center;
+  border: 2px solid transparent;
+  border-image: linear-gradient(
+      90deg,
+      ${(props) => props.theme.bg.gradStart} 0%,
+      ${(props) => props.theme.bg.gradEnd} 100%
+    )
+    1;
+  transition: 0.4s;
+`;
+
 export const UnderlineGrow = styled.div`
   position: relative;
   margin-bottom: 5px;

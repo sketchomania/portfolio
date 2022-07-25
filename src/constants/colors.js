@@ -1,4 +1,6 @@
 const Colors = {
+  appBackground: "#546266",
+
   white: "#ffffff",
   whiteTrans: "rgba(255, 255, 255, 0.66)",
   black: "#000000",
