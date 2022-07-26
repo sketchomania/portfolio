@@ -41,7 +41,7 @@ const Projects = () => {
                   <TitleContent>Stack</TitleContent>
                   <TagList>
                     {tags.map((tag, i) => (
-                      <GradBorder>
+                      <GradBorder key={i}>
                         <Tag key={i}>{tag}</Tag>
                       </GradBorder>
                     ))}

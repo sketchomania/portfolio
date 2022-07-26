@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import Colors from "../constants/colors";
 
 export const Container = styled.div`
   max-width: 1020px;
@@ -9,5 +8,6 @@ export const Container = styled.div`
 `;
 
 export const Main = styled.main`
-  background-color: ${Colors.appBackground};
+  background-color: ${(props) => props.theme.bg.body};
+  border: 1px solid gray;
 `;

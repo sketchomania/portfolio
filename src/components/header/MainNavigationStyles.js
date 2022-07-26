@@ -6,7 +6,6 @@ export const Container = styled.header`
   grid-template-rows: 1fr;
   grid-column-gap: 2rem;
   padding: 3rem 1rem;
-  border: 1px solid gray;
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
@@ -54,6 +53,10 @@ export const NameContainer = styled.span`
   font-weight: 800;
   font-size: 4rem;
   padding: 0.5rem;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+  &:hover{
+    text-shadow: none;
+  }
 `;
 
 export const Li = styled.li`

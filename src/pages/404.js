@@ -21,6 +21,7 @@ const NotFound = (props) => (
         <UnderlineGrow>
           <SectionSubText>👉 Home Page</SectionSubText>
         </UnderlineGrow>
+        <br/>
         <SectionSubText>👋</SectionSubText>
       </Section>
     </Layout>

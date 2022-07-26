@@ -33,6 +33,8 @@ const light = {
     gradient: "linear-gradient(#39598A, #79D7ED)",
     gradStart: Colors.gradLightStart,
     gradEnd: Colors.gradEnd,
+    sectionText: Colors.darkBody,
+    sectionSubText: Colors.darkGray,
   },
 };
 
@@ -45,6 +47,8 @@ const dark = {
     toggleBorder: "#6B8096",
     gradStart: Colors.gradDarkStart,
     gradEnd: Colors.gradEnd,
+    sectionText: Colors.lightBody,
+    sectionSubText: Colors.whiteTrans2,
   },
 };
 

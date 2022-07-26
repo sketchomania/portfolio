@@ -2,8 +2,9 @@ const Colors = {
   appBackground: "#484848",
 
   white: "#ffffff",
-  lightBody: "#E2E2E2",
   darkTextHover: "#FAFAFA",
+  lightBody: "#E2E2E2",
+  whiteTrans2: "rgba(255, 255, 255, 0.75)",
   whiteTrans: "rgba(255, 255, 255, 0.66)",
 
   black: "#000000",

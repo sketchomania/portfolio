@@ -1,46 +1,31 @@
 import Link from "next/link";
-// import Image from "next/image";
-// import social from "./social.json";
-import classes from "./Footer.module.css";
+
 import ContactIcons from "../contact/ContactIcons";
-// import { LinkItem } from "../footer-copy/FooterStyles";
-
-// import GithubIcon from "../../assets/social/github.svg";
-// import TwitterIcon from "../../assets/social/twitter.svg";
-// import LinkedinIcon from "../../assets/social/linkedin.svg";
-// import EmailIcon from "../../assets/social/gmail.svg";
-
-// const icons = {
-//   Github: GithubIcon,
-//   Twitter: TwitterIcon,
-//   Email: EmailIcon,
-//   Linkedin: LinkedinIcon,
-// };
+import { Div1, Div2, FooterComponent, Text } from "./FooterStyles";
+import { GradText } from "../../styles/GlobalComponents";
 
 const Footer = () => {
   return (
     <>
-      <footer className={classes.footer}>
-        <div>
+      <FooterComponent>
+        <Div1>
           <span>
             {" "}
             Copyright © {new Date().getFullYear()} | 👨‍💻🛠💛 by{" "}
-              {/* <LinkItem>Vaibhav</LinkItem> */}
-            <span >
-              <Link
-                href="https://github.com/sketchomania"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Vaibhav
+            {/* <LinkItem>Vaibhav</LinkItem> */}
+            <span>
+              <Link href="/" passHref>
+                <GradText>
+                  <Text>Vaibhav</Text>
+                </GradText>
               </Link>
             </span>
           </span>
-        </div>
-        <div>
+        </Div1>
+        <Div2>
           <ContactIcons />
-        </div>
-      </footer>
+        </Div2>
+      </FooterComponent>
     </>
   );
 };
