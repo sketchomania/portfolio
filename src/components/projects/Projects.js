@@ -13,37 +13,45 @@ import {
 } from "./ProjectsStyles";
 import {
   GradBorder,
+  GradText,
   Section,
+  SectionDivider,
+  SectionSubText,
   SectionTitle,
   UnderlineGrow,
 } from "../../styles/GlobalComponents";
 import Cell from "./cell/Cell";
 import data from "../../constants/projects";
+import Strings from "../../constants/strings";
 
 const Projects = () => {
   return (
-    <Section nopadding>
+    <Section>
       <UnderlineGrow alt>
-        <SectionTitle main>Projects</SectionTitle>
+        <SectionTitle main>{Strings.projects}</SectionTitle>
       </UnderlineGrow>
+      <SectionSubText>{Strings.projectsDescription}</SectionSubText>
       <GridContainer>
         {data.map(
           ({ id, image, title, subtitle, visit, source, desc, tags, date }) => (
             <BlogCard key={id}>
-              {/* <GradBorder> */}
+              <GradBorder>
                 <Img src={image} />
                 <TitleContent>
-                  <HeaderThree title={title}>{title}</HeaderThree>
+                  <HeaderThree title={title}>
+                    <GradText>{title}</GradText>
+                  </HeaderThree>
                   <Hr />
                 </TitleContent>
                 <CardInfo>{subtitle}</CardInfo>
                 <div>
-                  <TitleContent>Stack</TitleContent>
+                  <TitleContent>🛠 Stack</TitleContent>
+                  <Hr />
                   <TagList>
                     {tags.map((tag, i) => (
-                      <GradBorder key={i}>
+                      <UnderlineGrow key={i}>
                         <Tag key={i}>{tag}</Tag>
-                      </GradBorder>
+                      </UnderlineGrow>
                     ))}
                   </TagList>
                 </div>
@@ -51,7 +59,7 @@ const Projects = () => {
                   <ExternalLinks href={source}>Code</ExternalLinks>
                   <ExternalLinks href={visit}>Live</ExternalLinks>
                 </UtilityList>
-              {/* </GradBorder> */}
+              </GradBorder>
             </BlogCard>
           )
         )}

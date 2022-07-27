@@ -1,6 +1,9 @@
+import Link from "next/link";
 import React from "react";
+
 import Layout from "../layout/Layout";
 import {
+  GradBorder,
   Section,
   SectionSubText,
   SectionText,
@@ -11,18 +14,33 @@ import {
 const NotFound = (props) => (
   <>
     <Layout theme={props.theme} toggleTheme={props.toggleTheme}>
-      <Section>
+      <Section
+        style={{
+          height: "80vh",
+          alignItems: "center",
+          justifyContent: "space-between",
+        }}
+      >
         <UnderlineGrow alt>
-          <SectionTitle main>Not FOUND</SectionTitle>
+          <SectionTitle main>404 Page Not Found !</SectionTitle>
         </UnderlineGrow>
-        <SectionText>
-          You just hit a route that doesn&#39;t exist....😐
-        </SectionText>
+        <SectionSubText>
+          You just hit a route that doesn&#39;t exist....😕
+        </SectionSubText>
+        <SectionSubText>
+          The link you followed may broken, or this page may have been removed.
+        </SectionSubText>
         <UnderlineGrow>
-          <SectionSubText>👉 Home Page</SectionSubText>
+          <Link href="/">
+            <a>
+              <GradBorder>
+                <SectionSubText>➡ Home Page ⬅</SectionSubText>
+              </GradBorder>
+            </a>
+          </Link>
         </UnderlineGrow>
-        <br/>
-        <SectionSubText>👋</SectionSubText>
+        <SectionText style={{ fontSize: "4rem" }}>👋</SectionText>
+        <br />
       </Section>
     </Layout>
   </>

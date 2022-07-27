@@ -13,16 +13,14 @@ import {
 } from "./TechnologiesStyles";
 import Image from "next/image";
 import LinkedinIcon from "../../assets/social/linkedin.svg";
+import Strings from "../../constants/strings";
 
 const Technologies = () => (
   <Section>
     <UnderlineGrow alt>
-      <SectionTitle>Technologies</SectionTitle>
+      <SectionTitle main>{Strings.technologies}</SectionTitle>
     </UnderlineGrow>
-    <SectionText>
-      I have worked with a range of technoligies in the we development world.
-      From Back-end to Design
-    </SectionText>
+    <SectionText>{Strings.technologiesDescription}</SectionText>
     <List>
       <ListItem>
         <Image src={LinkedinIcon} alt="LinkedinIcon" height={48} />

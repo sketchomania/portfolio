@@ -11,14 +11,17 @@ const Footer = () => {
         <Div1>
           <span>
             {" "}
-            Copyright © {new Date().getFullYear()} | 👨‍💻🛠💛 by{" "}
+            Copyright © {new Date().getFullYear()} • 👨‍💻🛠💛 by{" "}
             {/* <LinkItem>Vaibhav</LinkItem> */}
             <span>
               <Link href="/" passHref>
-                <GradText>
-                  <Text>Vaibhav</Text>
-                </GradText>
+                <a>
+                  <GradText>
+                    <Text>Vaibhav</Text>
+                  </GradText>
+                </a>
               </Link>
+              {"🚀"}
             </span>
           </span>
         </Div1>

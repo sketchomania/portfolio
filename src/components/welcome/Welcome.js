@@ -2,12 +2,14 @@ import React from "react";
 
 import {
   Section,
+  SectionSubText,
   SectionText,
   SectionTitle,
   UnderlineGrow,
 } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./WelcomeStyles";
+import strings from "../../constants/strings";
 
 const Welcome = () => {
   return (
@@ -15,15 +17,12 @@ const Welcome = () => {
       <LeftSection>
         <UnderlineGrow>
           <SectionTitle main center>
-            Vaibhav Kushwaha
+            {strings.fullName}
           </SectionTitle>
         </UnderlineGrow>
-        <SectionText>I&apos;m Vaibhav Kushwaha 👋</SectionText>
+        <SectionText>{strings.sayHi}</SectionText>
         <UnderlineGrow>
-          <p>
-            I am a developer trying to learn new technologies, sharing my
-            experience and knowledge
-          </p>
+          <SectionSubText>{strings.shortIntro}</SectionSubText>
         </UnderlineGrow>
         <Button onClick={() => (window.location = "https://google.com")}>
           Learn more

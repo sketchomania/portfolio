@@ -6,7 +6,7 @@ const data = [
     visit: "https://devpost.com/software/harvest",
     source: "https://github.com/sketchomania",
     image: "/images/projects/harvest.jpg",
-    tags: ["Mongo", "Express", "React"],
+    tags: ["Mongo", "Express", "Mongo", "Express","Mongo", "Express","React"],
     date: "2015-09-20",
     desc:
       "Won ~ $7000 in prizes for an advanced, low cost monitoring solution " +
@@ -29,12 +29,12 @@ const data = [
   },
   {
     id: 2,
-    title: "Space Potato",
+    title: "100 Days of code",
     subtitle: "A kickstarter funded potato powered weather balloon.",
     visit: "http://www.spacepotato.org",
     source: "https://github.com/sketchomania",
     image: "/images/projects/spacepotato.jpg",
-    tags: ["Mongo", "Express", "React"],
+    tags: ["• Mongo,", "• HTML,", "• CSS"],
     date: "2015-06-28",
     desc:
       "Launched a potato battery powered weather balloon with two cameras " +

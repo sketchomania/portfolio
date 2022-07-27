@@ -61,7 +61,7 @@ const MainNavigation = ({ toggleTheme, theme }) => {
               }}
               onClick={toggleTheme}
             >
-              {theme === "light" ? "🌒" : "☀️"}
+              {theme === "light" ? "🌒" : "🌞"}
             </button>
           </Li>
         </Div3>

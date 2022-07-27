@@ -129,10 +129,10 @@ export const GradText = styled.span`
   -moz-text-fill-color: transparent;
 `;
 
-export const UnderlineGrow = styled.div`
+export const UnderlineGrow = styled.span`
   position: relative;
   margin-bottom: 5px;
-  width: max-content;
+  max-width: max-content;
   ::after {
     content: "";
     width: 0%;
