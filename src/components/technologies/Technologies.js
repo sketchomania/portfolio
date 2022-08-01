@@ -17,7 +17,7 @@ import Strings from "../../constants/strings";
 
 const Technologies = () => (
   <Section>
-    <UnderlineGrow alt>
+    <UnderlineGrow lar>
       <SectionTitle main>{Strings.technologies}</SectionTitle>
     </UnderlineGrow>
     <SectionText>{Strings.technologiesDescription}</SectionText>

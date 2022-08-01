@@ -34,7 +34,7 @@ const data = [
     visit: "http://www.spacepotato.org",
     source: "https://github.com/sketchomania",
     image: "/images/projects/spacepotato.jpg",
-    tags: ["• Mongo,", "• HTML,", "• CSS"],
+    tags: ["• Javascript,", "• HTML,", "• CSS"],
     date: "2015-06-28",
     desc:
       "Launched a potato battery powered weather balloon with two cameras " +

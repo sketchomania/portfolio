@@ -16,7 +16,7 @@ const data = [
 
 const Acomplishments = () => (
   <Section>
-    <UnderlineGrow alt>
+    <UnderlineGrow lar>
       <SectionTitle>Personal Acomplishments</SectionTitle>
     </UnderlineGrow>
     <Boxes>

@@ -26,8 +26,8 @@ const Timeline = () => {
   const carouselRef = useRef();
 
   // Issuses on moblie devices if you comment this
-  const scroll = (node, left) => {
-    return node.scrollTo({ left, behavior: "smooth" });
+  const scroll = (window, left) => {
+    return window.scrollTo({ left, behavior: "smooth" });
   };
 
   const handleClick = (e, i) => {
@@ -66,7 +66,7 @@ const Timeline = () => {
 
   return (
     <Section>
-      <UnderlineGrow alt>
+      <UnderlineGrow lar>
         <SectionTitle>About Me</SectionTitle>
       </UnderlineGrow>
       <SectionText>

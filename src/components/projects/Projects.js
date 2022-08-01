@@ -27,7 +27,7 @@ import Strings from "../../constants/strings";
 const Projects = () => {
   return (
     <Section>
-      <UnderlineGrow alt>
+      <UnderlineGrow lar>
         <SectionTitle main>{Strings.projects}</SectionTitle>
       </UnderlineGrow>
       <SectionSubText>{Strings.projectsDescription}</SectionSubText>
@@ -49,7 +49,7 @@ const Projects = () => {
                   <Hr />
                   <TagList>
                     {tags.map((tag, i) => (
-                      <UnderlineGrow key={i}>
+                      <UnderlineGrow key={i} sml>
                         <Tag key={i}>{tag}</Tag>
                       </UnderlineGrow>
                     ))}

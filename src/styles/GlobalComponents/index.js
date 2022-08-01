@@ -139,7 +139,9 @@ export const UnderlineGrow = styled.span`
     left: 0;
     text-align: center;
     position: absolute;
-    border-bottom: ${({ alt }) => (alt ? "6px" : "4px")} solid transparent;
+    border-bottom: ${({ sml }) =>
+        sml ? "2px" : ({ lar }) => (lar ? "6px" : "4px")}
+      solid transparent;
     border-image: linear-gradient(
         90deg,
         ${(props) => props.theme.bg.gradStart} 0%,

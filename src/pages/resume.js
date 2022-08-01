@@ -12,7 +12,7 @@ const Resume = (props) => {
     <>
       <Layout theme={props.theme} toggleTheme={props.toggleTheme}>
         <Section>
-          <UnderlineGrow alt>
+          <UnderlineGrow lar>
             <SectionTitle>Resume</SectionTitle>
           </UnderlineGrow>
           <ContactIcons />

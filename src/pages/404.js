@@ -21,7 +21,7 @@ const NotFound = (props) => (
           justifyContent: "space-between",
         }}
       >
-        <UnderlineGrow alt>
+        <UnderlineGrow lar>
           <SectionTitle main>404 Page Not Found !</SectionTitle>
         </UnderlineGrow>
         <SectionSubText>
@@ -30,7 +30,7 @@ const NotFound = (props) => (
         <SectionSubText>
           The link you followed may broken, or this page may have been removed.
         </SectionSubText>
-        <UnderlineGrow>
+        <UnderlineGrow sml>
           <Link href="/">
             <a>
               <GradBorder>
