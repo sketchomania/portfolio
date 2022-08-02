@@ -20,7 +20,6 @@ import {
   SectionTitle,
   UnderlineGrow,
 } from "../../styles/GlobalComponents";
-import Cell from "./cell/Cell";
 import data from "../../constants/projects";
 import Strings from "../../constants/strings";
 
@@ -30,6 +29,7 @@ const Projects = () => {
       <UnderlineGrow lar>
         <SectionTitle main>{Strings.projects}</SectionTitle>
       </UnderlineGrow>
+      <br/>
       <SectionSubText>{Strings.projectsDescription}</SectionSubText>
       <GridContainer>
         {data.map(
@@ -43,10 +43,9 @@ const Projects = () => {
                   </HeaderThree>
                   <Hr />
                 </TitleContent>
-                <CardInfo>{subtitle}</CardInfo>
+                <CardInfo>🎯{subtitle}</CardInfo>
                 <div>
-                  <TitleContent>🛠 Stack</TitleContent>
-                  <Hr />
+                  <TitleContent>----- 🛠 Stack -----</TitleContent>
                   <TagList>
                     {tags.map((tag, i) => (
                       <UnderlineGrow key={i} sml>
@@ -56,8 +55,12 @@ const Projects = () => {
                   </TagList>
                 </div>
                 <UtilityList>
-                  <ExternalLinks href={source}>Code</ExternalLinks>
-                  <ExternalLinks href={visit}>Live</ExternalLinks>
+                  <ExternalLinks target="_blank" href={source}>
+                    📚 Code
+                  </ExternalLinks>
+                  <ExternalLinks target="_blank" href={visit}>
+                    ▶ Live
+                  </ExternalLinks>
                 </UtilityList>
               </GradBorder>
             </BlogCard>

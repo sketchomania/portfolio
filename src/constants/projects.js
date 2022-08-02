@@ -1,45 +1,70 @@
 const data = [
   {
     id: 0,
-    title: "Harvest",
-    subtitle: "Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon",
-    visit: "https://devpost.com/software/harvest",
+    title: "Google Keep Clone",
+    subtitle:
+      "Keep is a extremely fast and cross platform tool for taking notes",
+    visit: "",
     source: "https://github.com/sketchomania",
-    image: "/images/projects/harvest.jpg",
-    tags: ["Mongo", "Express", "Mongo", "Express","Mongo", "Express","React"],
-    date: "2015-09-20",
-    desc:
-      "Won ~ $7000 in prizes for an advanced, low cost monitoring solution " +
-      "for crops. Harvest was designed to catch irrigation leaks, overwatering, " +
-      "and nutrient deficiencies at an affordable price for the developing world.",
+    image:
+      "https://github.com/sketchomania/100DaysOfCode/raw/master/project-img/repo-img.png",
+    tags: [
+      "• GraphQL,",
+      "• MongoDB,",
+      "• Tailwind,",
+      "• Express,",
+      "• React,",
+      "• Node",
+    ],
+    date: "",
+    desc: "Inspired by the official google keep app which is a highly optimized notes taking application, it’s an excellent productivity tool for anyone who wants to take quick notes anywhere on web or mobile",
   },
   {
     id: 1,
-    title: "Space Potato",
-    subtitle: "A kickstarter funded potato powered weather balloon.",
-    visit: "http://www.spacepotato.org",
-    source: "https://github.com/sketchomania",
-    image: "/images/projects/spacepotato.jpg",
-    tags: ["Mongo", "Express", "React"],
-    date: "2015-06-28",
-    desc:
-      "Launched a potato battery powered weather balloon with two cameras " +
-      "and gps transponder. Resulting photos were published in a coffee table book. " +
-      "You can email me for a copy.",
+    title: "YT-Search",
+    subtitle: "Get search result from Youtube and infinite scroll behaviour.",
+    visit: "https://github.com/sketchomania/yt-search-scroll",
+    source: "https://github.com/sketchomania/yt-search-scroll",
+    image:
+      "https://raw.githubusercontent.com/sketchomania/yt-search-scroll/main/assets/youtube-icon.jpg",
+    tags: ["• Expo,", "• Youtube Api,", "• React Native"],
+    date: "",
+    desc: "",
   },
   {
     id: 2,
+    title: "Sketch Weather",
+    subtitle: "This is a website showing weather insights.",
+    visit: "https://sketch-weather-application.herokuapp.com/",
+    source: "https://github.com/sketchomania/weather-website-node",
+    image:
+      "https://github.com/sketchomania/100DaysOfCode/raw/master/project-img/repo-img.png",
+    tags: ["• Node,", "• Express,", "• Handlebars", "• Api"],
+    date: "",
+    desc: "",
+  },
+  {
+    id: 3,
     title: "100 Days of code",
-    subtitle: "A kickstarter funded potato powered weather balloon.",
-    visit: "http://www.spacepotato.org",
-    source: "https://github.com/sketchomania",
-    image: "/images/projects/spacepotato.jpg",
+    subtitle: "Collection of vanilla js projects.",
+    visit: "https://100-doc-vaibhav.netlify.app/",
+    source: "https://github.com/sketchomania/100DaysOfCode",
+    image:
+      "https://github.com/sketchomania/100DaysOfCode/raw/master/project-img/repo-img.png",
     tags: ["• Javascript,", "• HTML,", "• CSS"],
-    date: "2015-06-28",
-    desc:
-      "Launched a potato battery powered weather balloon with two cameras " +
-      "and gps transponder. Resulting photos were published in a coffee table book. " +
-      "You can email me for a copy.",
+    date: "2021-07-01",
+    desc: "This repo contains some projects that I have done during my #100DaysOfCode challenge.",
+  },
+  {
+    id: 4,
+    title: "JS30",
+    subtitle: "JavaScript30 projects.",
+    visit: "https://javascript30-by-vaibhav.netlify.app/",
+    source: "https://github.com/sketchomania/JS30",
+    image: "/projects/js-30.png",
+    tags: ["• Javascript,", "• HTML,", "• CSS"],
+    date: "2021-07-01",
+    desc: "This is a JavaScript practice with JavaScript30 by Wes Bos without any frameworks, no compilers, no boilerplate, and no libraries",
   },
 ];
 

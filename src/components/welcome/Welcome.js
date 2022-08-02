@@ -15,7 +15,7 @@ const Welcome = () => {
   return (
     <Section row nopadding>
       <LeftSection>
-        <UnderlineGrow>
+        <UnderlineGrow lar>
           <SectionTitle main center>
             {strings.fullName}
           </SectionTitle>

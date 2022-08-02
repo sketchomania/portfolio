@@ -6,7 +6,7 @@ const Strings = {
     "I am a developer trying to learn new technologies, sharing my experience and knowledge",
   // Projects
   projects: "Projects",
-  projectsDescription: "My open source projects",
+  projectsDescription: "My open source projects with ▶ live demo and 📚 repository.",
   // Technologies
   technologies: "Technologies",
   technologiesDescription:

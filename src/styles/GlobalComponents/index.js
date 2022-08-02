@@ -31,17 +31,12 @@ export const SectionTitle = styled.h2`
   line-height: ${(props) => (props.main ? "72px" : "56px")};
   width: max-content;
   max-width: 100%;
-  background: linear-gradient(
-    140deg,
-    ${Colors.blue} 18.77%,
-    ${Colors.whiteTrans} 60.15%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  color: transparent;
+  color: ${(props) => props.theme.bg.textNoHover};
   margin-bottom: 16px;
   padding: ${(props) => (props.main ? "58px 0 16px" : "0")};
+  &:hover{
+    color: ${(props) => props.theme.bg.textHover};
+  }
 
   @media ${(props) => props.theme.breakpoints.md} {
     font-size: ${(props) => (props.main ? "56px" : "48px")};
