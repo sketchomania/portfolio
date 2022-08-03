@@ -69,8 +69,9 @@ const Timeline = () => {
       <UnderlineGrow lar>
         <SectionTitle>About Me</SectionTitle>
       </UnderlineGrow>
+      <br />
       <SectionText>
-        I am a 3rd year student persuing my Bachelo&apos;s degree
+        I am a 3rd year student persuing my Bachelor&apos;s degree
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

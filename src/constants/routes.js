@@ -16,17 +16,17 @@ const routes = [
     path: "/",
   },
   {
-    id: 5,
+    id: 3,
     label: "Artworks",
-    path: "/",
+    path: "/artworks",
   },
   {
-    id: 3,
+    id: 4,
     label: "About",
     path: "/about",
   },
   {
-    id: 4,
+    id: 5,
     label: "Resume",
     path: "/resume",
   },

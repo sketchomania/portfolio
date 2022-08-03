@@ -1,14 +1,14 @@
 import Link from "next/link";
 import Image from "next/image";
 import data from "../../constants/contact";
-import { StyledSocialIcons } from "./ContactIconsStyles";
+import { StyledSocialIcons,Li } from "./ContactIconsStyles";
 
 const ContactIcons = () => {
   return (
     <>
       <StyledSocialIcons>
         {data.map(({ id, label, link, icon }) => (
-          <li key={id}>
+          <Li key={id}>
             <Link
               tabindex={id}
               href={link}
@@ -27,7 +27,7 @@ const ContactIcons = () => {
                 />
               </a>
             </Link>
-          </li>
+          </Li>
         ))}
       </StyledSocialIcons>
     </>

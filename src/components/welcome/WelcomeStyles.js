@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const LeftSection = styled.div`
   width: 100%;
-  border: 1px solid cyan;
   @media ${(props) => props.theme.breakpoints.md} {
     width: 100%;
     display: flex;

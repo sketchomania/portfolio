@@ -13,17 +13,18 @@ import strings from "../../constants/strings";
 
 const Welcome = () => {
   return (
-    <Section row nopadding>
+    <Section>
+      <UnderlineGrow lar>
+        <SectionTitle main center>
+          {strings.fullName}
+        </SectionTitle>
+      </UnderlineGrow>
       <LeftSection>
-        <UnderlineGrow lar>
-          <SectionTitle main center>
-            {strings.fullName}
-          </SectionTitle>
-        </UnderlineGrow>
         <SectionText>{strings.sayHi}</SectionText>
         <UnderlineGrow>
           <SectionSubText>{strings.shortIntro}</SectionSubText>
         </UnderlineGrow>
+        <br />
         <Button onClick={() => (window.location = "https://google.com")}>
           Learn more
         </Button>

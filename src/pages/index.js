@@ -13,13 +13,9 @@ const HomePage = (props) => {
         <meta name="description" content="Vaibhav Kushwaha portfolio website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Section grid>
+      <>
         <Welcome />
-      </Section>
-      <hr />
-      <Technologies />
-      <hr />
-      <TimeLine />
+      </>
     </Layout>
   );
 };

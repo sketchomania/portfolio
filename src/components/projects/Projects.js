@@ -29,21 +29,24 @@ const Projects = () => {
       <UnderlineGrow lar>
         <SectionTitle main>{Strings.projects}</SectionTitle>
       </UnderlineGrow>
-      <br/>
-      <SectionSubText>{Strings.projectsDescription}</SectionSubText>
+      <br />
+      <UnderlineGrow sml>
+        <SectionSubText>{Strings.projectsDescription}</SectionSubText>
+      </UnderlineGrow>
       <GridContainer>
         {data.map(
           ({ id, image, title, subtitle, visit, source, desc, tags, date }) => (
             <BlogCard key={id}>
               <GradBorder>
-                <Img src={image} />
                 <TitleContent>
                   <HeaderThree title={title}>
                     <GradText>{title}</GradText>
                   </HeaderThree>
-                  <Hr />
+                  {/* <Hr /> */}
                 </TitleContent>
+                <Img src={image} />
                 <CardInfo>🎯{subtitle}</CardInfo>
+                <Hr />
                 <div>
                   <TitleContent>----- 🛠 Stack -----</TitleContent>
                   <TagList>

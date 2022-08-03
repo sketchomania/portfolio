@@ -20,6 +20,7 @@ const Technologies = () => (
     <UnderlineGrow lar>
       <SectionTitle main>{Strings.technologies}</SectionTitle>
     </UnderlineGrow>
+    <br />
     <SectionText>{Strings.technologiesDescription}</SectionText>
     <List>
       <ListItem>

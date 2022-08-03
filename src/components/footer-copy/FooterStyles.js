@@ -42,7 +42,7 @@ export const LinkTitle = styled.h4`
   font-size: 12px;
   line-height: 24px;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.4);
+  /* color: rgba(255, 255, 255, 0.4); */
   margin-bottom: 16px;
 
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -55,7 +55,7 @@ export const LinkTitle = styled.h4`
 export const LinkItem = styled.a`
   font-size: 18px;
   line-height: 30px;
-  color: rgba(255, 255, 255, 0.75);
+  /* color: rgba(255, 255, 255, 0.75); */
   margin-bottom: 16px;
   transition: 0.3s ease;
   position: relative;

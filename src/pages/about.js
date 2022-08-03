@@ -1,6 +1,7 @@
 import React from "react";
 
 import Timeline from "../components/timeline/TimeLine";
+import Technologies from "../components/technologies/Technologies";
 import Layout from "../layout/Layout";
 import Acomplishments from "../components/acomplishments/Acomplishments";
 import { Section } from "../styles/GlobalComponents";
@@ -12,7 +13,11 @@ const About = (props) => {
       <Layout theme={props.theme} toggleTheme={props.toggleTheme}>
         <Section>
           <Timeline />
+          <hr />
           <Acomplishments />
+          <hr />
+          <Technologies />
+          <hr />
           <Footer />
         </Section>
       </Layout>

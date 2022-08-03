@@ -19,6 +19,7 @@ const Acomplishments = () => (
     <UnderlineGrow lar>
       <SectionTitle>Personal Acomplishments</SectionTitle>
     </UnderlineGrow>
+    <br />
     <Boxes>
       {data.map((card, index) => (
         <Box key={index}>

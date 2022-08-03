@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Img = styled.img`
   width: 100%;
   height: 100%;
+  max-height: 24rem;
   object-fit: cover;
   overflow: hidden;
 `;
@@ -42,7 +43,7 @@ export const TitleContent = styled.div`
 `;
 
 export const HeaderThree = styled.h3`
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 2px;
   color: #9cc9e3;
   padding: 0.5rem 0;
