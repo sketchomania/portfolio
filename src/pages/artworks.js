@@ -1,15 +1,15 @@
 import React from "react";
 import Layout from "../layout/Layout";
-import Projects from "../components/projects/Projects";
+import Artworks from "../components/artworks/Artworks";
 
-const Project = (props) => {
+const Artwork = (props) => {
   return (
     <>
       <Layout theme={props.theme} toggleTheme={props.toggleTheme}>
-        <Projects />
+        <Artworks />
       </Layout>
     </>
   );
 };
 
-export default Project;
+export default Artwork;

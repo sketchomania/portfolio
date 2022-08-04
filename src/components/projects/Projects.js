@@ -1,3 +1,5 @@
+import data from "../../constants/projects";
+import Strings from "../../constants/strings";
 import {
   BlogCard,
   CardInfo,
@@ -20,8 +22,6 @@ import {
   SectionTitle,
   UnderlineGrow,
 } from "../../styles/GlobalComponents";
-import data from "../../constants/projects";
-import Strings from "../../constants/strings";
 
 const Projects = () => {
   return (
