@@ -30,8 +30,9 @@ export const Div2 = styled.div`
   display: flex;
   flex-direction: row;
   align-content: center;
-  overflow: hidden;
+  /* overflow: hidden; */
   @media ${(props) => props.theme.breakpoints.md} {
+    flex-wrap: wrap;
     grid-area: 2 / 1 / 3 / 6;
   }
 `;

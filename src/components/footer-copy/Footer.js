@@ -1,6 +1,9 @@
 import React from "react";
 import {
+  LinkText,
   Section,
+  SectionSubText,
+  SectionText,
   SectionTitle,
   UnderlineGrow,
 } from "../../styles/GlobalComponents";
@@ -11,22 +14,18 @@ import {
 // import { SocialIcons } from "../header/MainNavigationStyles";
 import ContactIcons from "../contact/ContactIcons";
 import {
-  CompanyContainer,
   FooterWrapper,
-  LinkColumn,
   LinkItem,
   LinkList,
   LinkTitle,
-  Slogan,
   SocialContainer,
-  SocialIconsContainer,
 } from "./FooterStyles";
 
 const Footer = () => {
   return (
     <Section>
       <UnderlineGrow lar>
-        <SectionTitle main>Contact Me</SectionTitle>
+        <SectionTitle>Contact Me</SectionTitle>
       </UnderlineGrow>
       <br />
       <FooterWrapper>
@@ -40,11 +39,6 @@ const Footer = () => {
             vaibhavvast6529@gmail.com
           </LinkItem>
         </LinkList>
-        <SocialIconsContainer>
-          <SocialContainer>
-            <ContactIcons />
-          </SocialContainer>
-        </SocialIconsContainer>
       </FooterWrapper>
     </Section>
   );

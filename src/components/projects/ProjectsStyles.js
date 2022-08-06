@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Colors from "../../constants/colors";
 
 export const Img = styled.img`
   width: 100%;
@@ -24,7 +25,7 @@ export const GridContainer = styled.section`
 `;
 export const BlogCard = styled.div`
   border-radius: 10px;
-  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+  box-shadow: ${Colors.shadowContainer};
   text-align: center;
   width: 400px;
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -45,7 +46,7 @@ export const TitleContent = styled.div`
 export const HeaderThree = styled.h3`
   font-weight: 600;
   letter-spacing: 2px;
-  color: #9cc9e3;
+  color: ${(props) => props.theme.bg.sectionText};
   padding: 0.5rem 0;
   font-size: ${(props) => (props.title ? "3rem" : "2rem")};
 `;

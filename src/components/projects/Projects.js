@@ -39,12 +39,12 @@ const Projects = () => {
             <BlogCard key={id}>
               <GradBorder>
                 <TitleContent>
-                  <HeaderThree title={title}>
+                  <HeaderThree title>
                     <GradText>{title}</GradText>
                   </HeaderThree>
                   {/* <Hr /> */}
                 </TitleContent>
-                <Img src={image} />
+                <Img src={image} alt={`•${title} project Image`} />
                 <CardInfo>🎯{subtitle}</CardInfo>
                 <Hr />
                 <div>

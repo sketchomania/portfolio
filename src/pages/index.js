@@ -1,9 +1,6 @@
 import Head from "next/head";
 import Layout from "../layout/Layout";
-import { Section } from "../styles/GlobalComponents";
 import Welcome from "../components/welcome/Welcome";
-import Technologies from "../components/technologies/Technologies";
-import TimeLine from "../components/timeline/TimeLine";
 
 const HomePage = (props) => {
   return (

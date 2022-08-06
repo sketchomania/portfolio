@@ -35,10 +35,10 @@ export const Text = styled.span`
   font-weight: 600;
   font-size: 1.8rem;
   letter-spacing: 0.6px;
-  transition: 0.1s ease;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+  transition: 0.2s ease;
+  cursor: pointer;
   &:hover {
     font-size: 2rem;
-    cursor: pointer;
   }
 `;

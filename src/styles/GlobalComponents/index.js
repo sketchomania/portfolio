@@ -34,7 +34,7 @@ export const SectionTitle = styled.h2`
   color: ${(props) => props.theme.bg.textNoHover};
   margin-bottom: 16px;
   padding: ${(props) => (props.main ? "58px 0 16px" : "0")};
-  &:hover{
+  &:hover {
     color: ${(props) => props.theme.bg.textHover};
   }
 
@@ -94,6 +94,16 @@ export const SectionSubText = styled.p`
   @media ${(props) => props.theme.breakpoints.sm} {
     font-size: 14px;
     line-height: 22px;
+  }
+`;
+
+export const LinkText = styled.a`
+  transition: 0.3s ease;
+  position: relative;
+  cursor: pointer;
+  bottom: 0;
+  &:hover {
+    bottom: 5px;
   }
 `;
 

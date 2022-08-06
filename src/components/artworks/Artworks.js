@@ -37,7 +37,7 @@ const Artworks = () => {
           <BlogCard key={id}>
             <GradBorder>
               <TitleContent>
-                <HeaderThree>
+                <HeaderThree title>
                   <GradText>{title}</GradText>
                 </HeaderThree>
               </TitleContent>

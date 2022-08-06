@@ -19,9 +19,9 @@ const Footer = () => {
                   <GradText>
                     <Text>Vaibhav</Text>
                   </GradText>
+                  {"🚀"}
                 </a>
               </Link>
-              {"🚀"}
             </span>
           </span>
         </Div1>
