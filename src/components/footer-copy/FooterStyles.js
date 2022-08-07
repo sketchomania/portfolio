@@ -14,7 +14,6 @@ export const FooterWrapper = styled.section`
 `;
 
 export const LinkList = styled.ul`
-  border-top: 1px solid gray;
   display: grid;
   grid-template-columns: repeat(3, minmax(85px, 220px));
   gap: 40px;

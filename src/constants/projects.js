@@ -61,7 +61,8 @@ const data = [
     subtitle: "JavaScript30 projects.",
     visit: "https://javascript30-by-vaibhav.netlify.app/",
     source: "https://github.com/sketchomania/JS30",
-    image: "/projects/js-30.png",
+    image:
+      "https://github.com/sketchomania/100DaysOfCode/raw/master/project-img/repo-img.png",
     tags: ["• Javascript,", "• HTML,", "• CSS"],
     date: "2021-07-01",
     desc: "This is a JavaScript practice with JavaScript30 by Wes Bos without any frameworks, no compilers, no boilerplate, and no libraries",

@@ -5,7 +5,6 @@ import {
   CardInfo,
   ExternalLinks,
   GridContainer,
-  HeaderThree,
   Hr,
   Tag,
   TagList,
@@ -14,12 +13,12 @@ import {
   Img,
 } from "./ProjectsStyles";
 import {
-  GradBorder,
-  GradText,
   Section,
-  SectionDivider,
-  SectionSubText,
   SectionTitle,
+  SectionSubText,
+  HeaderThree,
+  GradText,
+  GradBorder,
   UnderlineGrow,
 } from "../../styles/GlobalComponents";
 

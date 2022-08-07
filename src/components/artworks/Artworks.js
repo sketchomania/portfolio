@@ -2,19 +2,19 @@ import data from "../../constants/artworks";
 import Strings from "../../constants/strings";
 import { ArtImgContainer } from "./ArtworksStyles";
 import {
-  GradBorder,
-  GradText,
   Section,
-  SectionSubText,
   SectionText,
   SectionTitle,
+  SectionSubText,
+  HeaderThree,
+  GradText,
+  GradBorder,
   UnderlineGrow,
 } from "../../styles/GlobalComponents";
 import {
   BlogCard,
   CardInfo,
   GridContainer,
-  HeaderThree,
   Tag,
   TagList,
   TitleContent,
@@ -22,11 +22,12 @@ import {
 
 const Artworks = () => {
   return (
-    <Section style={{ minHeight: "100vh" }}>
+    <Section>
       <UnderlineGrow lar>
         <SectionTitle main>{Strings.artworks}</SectionTitle>
       </UnderlineGrow>
       <br />
+      <hr />
       <UnderlineGrow>
         <SectionText>{Strings.artworksDesc1}</SectionText>
       </UnderlineGrow>
