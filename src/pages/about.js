@@ -1,10 +1,8 @@
 import React from "react";
 
-import Technologies from "../components/technologies/Technologies";
 import Layout from "../layout/Layout";
 import {
   Section,
-  SectionSubText,
   SectionText,
   SectionTitle,
   UnderlineGrow,
@@ -20,19 +18,12 @@ const About = (props) => {
             <SectionTitle main>About Me</SectionTitle>
           </UnderlineGrow>
           <br />
+          <hr />
           <SectionText>
             I am a 3rd year student persuing my Bachelor&apos;s degree
           </SectionText>
-          <Technologies />
           <hr />
           <Footer />
-          <hr />
-          <Section>
-            <SectionTitle>Contact Me</SectionTitle>
-            <SectionText>Contact Me</SectionText>
-            <SectionSubText>Contact Me </SectionSubText>
-            <SectionSubText>Email: vaibhavvast6529@gmail</SectionSubText>
-          </Section>
         </Section>
       </Layout>
     </>

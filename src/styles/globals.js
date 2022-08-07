@@ -35,10 +35,6 @@ const GlobalStyles = createGlobalStyle`
   a {
     text-decoration: none;
   }
-  li{
-    list-style: none;
-  }
-
 `;
 
 export default GlobalStyles;

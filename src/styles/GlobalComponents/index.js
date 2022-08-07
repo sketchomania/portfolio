@@ -7,6 +7,7 @@ export const Section = styled.section`
   padding: ${(props) => (props.nopadding ? "0" : "32px 48px 0")};
   margin: 0 auto;
   max-width: 1040px;
+  min-height: 80vh;
   box-sizing: content-box;
   position: relative;
   overflow: hidden;
@@ -57,7 +58,6 @@ export const SectionTitle = styled.h2`
 `;
 
 export const SectionText = styled.p`
-  max-width: 800px;
   font-size: 24px;
   line-height: 40px;
   font-weight: 300;
@@ -65,7 +65,6 @@ export const SectionText = styled.p`
   color: ${(props) => props.theme.bg.sectionText};
 
   @media ${(props) => props.theme.breakpoints.md} {
-    max-width: 670px;
     font-size: 20px;
     line-height: 32px;
     padding-bottom: 24px;
@@ -79,14 +78,12 @@ export const SectionText = styled.p`
 `;
 
 export const SectionSubText = styled.p`
-  max-width: 800px;
   font-weight: 300;
   font-size: 18px;
   line-height: 32px;
   color: ${(props) => props.theme.bg.sectionSubText};
 
   @media ${(props) => props.theme.breakpoints.md} {
-    max-width: 672px;
     font-size: 16px;
     line-height: 25px;
   }
@@ -97,7 +94,16 @@ export const SectionSubText = styled.p`
   }
 `;
 
+export const HeaderThree = styled.h3`
+  font-weight: 600;
+  color: ${(props) => props.theme.bg.sectionText};
+  padding: 0.5rem 0;
+  font-size: ${(props) => (props.title ? "3rem" : "2rem")};
+`;
+
 export const LinkText = styled.a`
+  color: ${(props) => props.theme.bg.gradStart};
+  /* color: ${(props) => props.theme.bg.gradEnd}; */
   transition: 0.3s ease;
   position: relative;
   cursor: pointer;
@@ -157,30 +163,6 @@ export const UnderlineGrow = styled.span`
   }
   :hover::after {
     width: 100%;
-  }
-`;
-
-export const SectionDivider = styled.div`
-  width: 64px;
-  height: 6px;
-  border-radius: 10px;
-  background-color: ${Colors.white};
-  background: linear-gradient(
-    90deg,
-    ${(props) => props.theme.bg.gradStart} 0%,
-    ${(props) => props.theme.bg.gradEnd} 100%
-  );
-
-  margin: ${(props) => (props.divider ? "4rem 0" : "")};
-
-  @media ${(props) => props.theme.breakpoints.md} {
-    width: 48px;
-    height: 4px;
-  }
-
-  @media ${(props) => props.theme.breakpoints.sm} {
-    width: 32px;
-    height: 2px;
   }
 `;
 

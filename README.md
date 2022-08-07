@@ -22,4 +22,7 @@ The page will reload if you make edits.
 
 ### Todo later on
 
-- add shadow to the social icons
+- nav links to the different sections of portfolio
+- show icons for tech stack used
+- Resume
+  - a b c d e
