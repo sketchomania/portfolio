@@ -1,9 +1,5 @@
 import styled from "styled-components";
 
-export const SectionPointsContainer = styled.div`
-  padding-left: 2rem;
-`;
-
 export const SectionContainer = styled.div`
   display: flex;
   justify-content: space-between;
@@ -13,7 +9,7 @@ export const SectionTextMedium = styled.p`
   font-size: 24px;
   line-height: 40px;
   font-weight: 600;
-  padding-bottom: 3.6rem;
+  padding-bottom: 1.5rem;
   color: ${(props) => props.theme.bg.sectionText};
 
   @media ${(props) => props.theme.breakpoints.md} {
@@ -29,5 +25,10 @@ export const SectionTextMedium = styled.p`
   }
 `;
 
-export const SectionNameContainer1 = styled.h1``;
-export const SectionNameContainer2 = styled.h2``;
+export const SectionPointsContainer = styled.ul`
+  padding-left: 2rem;
+`;
+
+export const FlexDiv = styled.div`
+  display: flex;
+`;

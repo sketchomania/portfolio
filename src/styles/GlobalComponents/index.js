@@ -99,6 +99,7 @@ export const HeaderThree = styled.h3`
   color: ${(props) => props.theme.bg.sectionText};
   padding: 0.5rem 0;
   font-size: ${(props) => (props.title ? "3rem" : "2rem")};
+  padding-bottom: ${(props) => (props.pb ? "2rem" : "")};
 `;
 
 export const LinkText = styled.a`

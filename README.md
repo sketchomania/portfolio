@@ -26,3 +26,5 @@ The page will reload if you make edits.
 - show icons for tech stack used
 - Resume
   - a b c d e
+- color of the text specially long text
+- finish the resume pdf download part

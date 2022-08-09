@@ -27,7 +27,7 @@ const data = [
     source: "https://github.com/sketchomania/yt-search-scroll",
     image:
       "https://raw.githubusercontent.com/sketchomania/yt-search-scroll/main/assets/youtube-icon.jpg",
-    tags: ["• Expo,", "• Youtube Api,", "• React Native"],
+    tags: ["• Expo,", "• Ajax,", "• Youtube Api,", "• React Native"],
     date: "",
     desc: "",
   },
