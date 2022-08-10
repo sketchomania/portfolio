@@ -28,3 +28,4 @@ The page will reload if you make edits.
   - a b c d e
 - color of the text specially long text
 - finish the resume pdf download part
+- project vedio recording for readme

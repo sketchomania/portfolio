@@ -17,7 +17,7 @@ const data = [
       " Node ",
     ],
     date: "",
-    desc: "Inspired by the official google keep app which is a highly optimized notes taking application, it’s an excellent productivity tool for anyone who wants to take quick notes anywhere on web or mobile.",
+    desc: "Inspired by the official google keep app which is a highly optimised notes taking application, it’s an excellent productivity tool for anyone who wants to take quick notes anywhere on web or mobile.",
   },
   {
     id: 1,
