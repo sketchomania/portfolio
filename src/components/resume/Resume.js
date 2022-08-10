@@ -1,5 +1,4 @@
 import data from "../../constants/projects";
-import Strings from "../../constants/strings";
 import skills from "../../constants/resume/skills";
 import positions from "../../constants/resume/positions";
 import resumeData from "../../constants/resume/resumeData";
@@ -23,7 +22,7 @@ const Resume = () => {
     <>
       <Section>
         <UnderlineGrow lar>
-          <SectionTitle main>{Strings.resume}</SectionTitle>
+          <SectionTitle main>{resumeData.resume}</SectionTitle>
         </UnderlineGrow>
         <br />
         <hr />
@@ -33,17 +32,18 @@ const Resume = () => {
           <HeaderThree title pb>
             {"Vaibhav Kushwaha"}
           </HeaderThree>
-          <SectionSubText>
-            I am Vaibhav Kushwaha, I live in Varanasi
-          </SectionSubText>
+          <SectionSubText>{resumeData.summary}</SectionSubText>
           <SectionPointsContainer>
             <li key={1}>
               <SectionSubText>
-                {"I am a Computer Science and Engineering Student"}
+                {resumeData.summarySubText1}{" "}
+                <LinkText href={positions[0].link} target={"_blank"}>
+                  {positions[0].company}
+                </LinkText>
               </SectionSubText>
             </li>
             <li key={2}>
-              <SectionSubText>{"CGPA: 7.9"}</SectionSubText>
+              <SectionSubText>{resumeData.summarySubText2}</SectionSubText>
             </li>
           </SectionPointsContainer>
         </>
@@ -51,7 +51,7 @@ const Resume = () => {
         <>
           <br />
           <HeaderThree title pb>
-            Experience
+            {"Experience"}
           </HeaderThree>
           {positions.map((position) => (
             <article>
@@ -89,8 +89,16 @@ const Resume = () => {
           </HeaderThree>
           {data.map((project) => (
             <article>
-              <SectionSubText>{project.title}</SectionSubText>
-              <SectionSubText>{project.subtitle}</SectionSubText>
+              <SectionSubText>
+                <LinkText href={project.visit} target="_blank">
+                  {project.title}
+                </LinkText>
+                {`: ${project.subtitle} using `}
+                {project.tags.map((tag) => (
+                  <span key={tag}>{tag}</span>
+                ))}
+              </SectionSubText>
+              <br />
             </article>
           ))}
         </>

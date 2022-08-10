@@ -51,16 +51,16 @@ const Projects = () => {
                   <TagList>
                     {tags.map((tag, i) => (
                       <UnderlineGrow key={i} sml>
-                        <Tag key={i}>{tag}</Tag>
+                        <Tag key={i}>•{tag}</Tag>
                       </UnderlineGrow>
                     ))}
                   </TagList>
                 </div>
                 <UtilityList>
-                  <ExternalLinks target="_blank" href={source}>
+                  <ExternalLinks target={"_blank"} href={source}>
                     📚 Code
                   </ExternalLinks>
-                  <ExternalLinks target="_blank" href={visit}>
+                  <ExternalLinks target={"_blank"} href={visit}>
                     ▶ Live
                   </ExternalLinks>
                 </UtilityList>

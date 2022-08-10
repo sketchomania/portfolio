@@ -15,20 +15,22 @@ const Welcome = () => {
   return (
     <Section>
       <UnderlineGrow lar>
-        <SectionTitle main center>
+        <SectionTitle main>
           {strings.fullName}
         </SectionTitle>
       </UnderlineGrow>
-      <LeftSection>
+      {/* <LeftSection> */}
+        <SectionText>{strings.sayHi}</SectionText>
         <SectionText>{strings.sayHi}</SectionText>
         <UnderlineGrow>
+        <SectionText>{strings.sayHi}</SectionText>
           <SectionSubText>{strings.shortIntro}</SectionSubText>
         </UnderlineGrow>
         <br />
         <Button onClick={() => (window.location = "https://google.com")}>
           Learn more
         </Button>
-      </LeftSection>
+      {/* </LeftSection> */}
     </Section>
   );
 };

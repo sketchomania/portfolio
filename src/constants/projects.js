@@ -3,21 +3,21 @@ const data = [
     id: 0,
     title: "Google Keep Clone",
     subtitle:
-      "Keep is a extremely fast and cross platform tool for taking notes",
+      "Keep is a extremely fast and cross platform tool for taking notes.",
     visit: "",
     source: "https://github.com/sketchomania",
     image:
       "https://github.com/sketchomania/100DaysOfCode/raw/master/project-img/repo-img.png",
     tags: [
-      "• GraphQL,",
-      "• MongoDB,",
-      "• Tailwind,",
-      "• Express,",
-      "• React,",
-      "• Node",
+      " GraphQL, ",
+      " MongoDB, ",
+      " Tailwind, ",
+      " Express, ",
+      " React, ",
+      " Node ",
     ],
     date: "",
-    desc: "Inspired by the official google keep app which is a highly optimized notes taking application, it’s an excellent productivity tool for anyone who wants to take quick notes anywhere on web or mobile",
+    desc: "Inspired by the official google keep app which is a highly optimized notes taking application, it’s an excellent productivity tool for anyone who wants to take quick notes anywhere on web or mobile.",
   },
   {
     id: 1,
@@ -27,7 +27,7 @@ const data = [
     source: "https://github.com/sketchomania/yt-search-scroll",
     image:
       "https://raw.githubusercontent.com/sketchomania/yt-search-scroll/main/assets/youtube-icon.jpg",
-    tags: ["• Expo,", "• Ajax,", "• Youtube Api,", "• React Native"],
+    tags: [" React Native, "," Expo, ", " Ajax, ", " Youtube Api ", ],
     date: "",
     desc: "",
   },
@@ -39,7 +39,7 @@ const data = [
     source: "https://github.com/sketchomania/weather-website-node",
     image:
       "https://github.com/sketchomania/100DaysOfCode/raw/master/project-img/repo-img.png",
-    tags: ["• Node,", "• Express,", "• Handlebars", "• Api"],
+    tags: [" Node, ", " Express, ", " Handlebars, ", " Api "],
     date: "",
     desc: "",
   },
@@ -51,7 +51,7 @@ const data = [
     source: "https://github.com/sketchomania/100DaysOfCode",
     image:
       "https://github.com/sketchomania/100DaysOfCode/raw/master/project-img/repo-img.png",
-    tags: ["• Javascript,", "• HTML,", "• CSS"],
+    tags: [" Javascript, ", " HTML, ", " CSS "],
     date: "2021-07-01",
     desc: "This repo contains some projects that I have done during my #100DaysOfCode challenge.",
   },
@@ -63,7 +63,7 @@ const data = [
     source: "https://github.com/sketchomania/JS30",
     image:
       "https://github.com/sketchomania/100DaysOfCode/raw/master/project-img/repo-img.png",
-    tags: ["• Javascript,", "• HTML,", "• CSS"],
+    tags: [" Javascript, ", " HTML, ", " CSS "],
     date: "2021-07-01",
     desc: "This is a JavaScript practice with JavaScript30 by Wes Bos without any frameworks, no compilers, no boilerplate, and no libraries",
   },

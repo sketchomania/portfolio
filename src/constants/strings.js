@@ -1,6 +1,6 @@
 const Strings = {
   // welcome
-  fullName: "Vaibhav Kushwaha👨‍💻",
+  fullName: "Vaibhav Kushwaha 👨‍💻",
   sayHi: "I'm Vaibhav Kushwaha 👋",
   shortIntro: `
     I am a developer trying to learn new technologies, sharing my experience and knowledge. 
@@ -24,6 +24,8 @@ const Strings = {
     → I also try to build project while learning new technologies, you can also have a look on project section.
     → Apart from development I also do sketching, drawing and Paintings, you can also checkout artworks section.
     → My resume.
+
+    • know more 
     `,
   // Projects
   projects: "Projects",
@@ -59,16 +61,20 @@ const Strings = {
   - Drawing and Sketching.
   - Reading Books
   - learning about finance.
-  `,
-  resume: "Resume",
-  moreResume: `
-   - Summary
-     - I'm a final year student  
-  Experience:
-  Skills: (with filter in future):
-  Techonologies: 
-  Projects(reference):
-  Education:
+
+  I LIKE
+    - books, space,drawing, sketching,photography, listen to podcast.
+
+• There are several ways in which you can contact me 
+  - Email me at vaibhavvastjkldfj
+  - Alternative Contact Options <contact icon>
+• INTERESTS 
+  - There are a lot of things I like to fill my time with.
+  - Business, Finance, Technology, Photography.
+    Some of these are the following: yoga, reading, painting, learning about finance, and listening to music. I'd like learn more about rock climbing and rug making.
+• Fun fact 
+  - I love my pet
+  
   `,
 };
 

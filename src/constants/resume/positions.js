@@ -2,45 +2,27 @@ const positions = [
   {
     company: "Dronebase",
     role: "Mobile Developer Intern",
-    link: "",
+    link: "https://dronebase.com/",
     timeline: "Remote, July 2022 - Present",
-    summary: "Basically started working on fronted of the app",
+    summary: `Started with testing the User experience and existing features of the app. 
+    Creating documentation for the app and gradually getting my hands on implementing new features to the app.
+    `,
     points: [
-      "Adding New features",
-      "Adding Project Documentation",
+      "Testing the features and user experience",
+      "Implementing New features to the app",
+      "Created Project Documentation",
       "Adding New frontend UI",
-      "Fixing Desing issues",
+      "Fixing Design issues",
     ],
     techStack: [
+      "ReactNative, ",
+      "Mapbox, ",
+      "Victory",
+      "StyleSheet, ",
       "JavaScript, ",
       "React, ",
-      "ReactNative, ",
-      "StyleSheet, ",
-      "VitoryPie, ",
-      "Vitory",
-    ],
-  },
-  {
-    company: "Dronebase",
-    role: "Mobile Developer Intern",
-    link: "",
-    timeline: "Remote, July 2022 - Present",
-    summary: "Basically started working on fronted of the app",
-    points: [
-      "Adding New features",
-      "Adding Project Documentation",
-      "Adding New frontend UI",
-      "Fixing Desing issues",
-    ],
-    techStack: [
-      "JavaScript, ",
-      "React, ",
-      "ReactNative, ",
-      "StyleSheet, ",
-      "VitoryPie, ",
-      "Vitory",
     ],
   },
 ];
-
+ 
 export default positions;
