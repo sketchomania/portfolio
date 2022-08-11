@@ -12,7 +12,7 @@ const Strings = {
   shortIntro3: `
     I like building things and solving real life problems with creativity.
     I also apply my passion for developing products with modern Library and Frameworks.
-    My most of the interest lies in building scalable services using hybride, full-stack services using React Native, TypeScript, Graphql, Go.
+    My most of the interest lies in building scalable services using hybrid, full-stack services using React Native, TypeScript, Graphql, Go.
   `,
   shortIntro4: `
   Apart from development I'm an artist love to do sketching, drawing and Paintings, you can also checkout ➡

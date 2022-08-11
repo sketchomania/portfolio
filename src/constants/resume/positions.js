@@ -18,10 +18,10 @@ const positions = [
     techStack: [
       "ReactNative, ",
       "Mapbox, ",
-      "Victory",
+      "Victory, ",
       "StyleSheet, ",
       "JavaScript, ",
-      "React, ",
+      "React ",
     ],
   },
 ];

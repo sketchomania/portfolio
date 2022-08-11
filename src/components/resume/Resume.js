@@ -153,9 +153,9 @@ const Resume = () => {
         <>
           <hr />
           <br />
-          <SectionSubText>{"Updated on August 2022."}</SectionSubText>
+          <SectionSubText>{"Last updated on August 2022."}</SectionSubText>
           <SectionSubText>
-            Pdf version of the above resume can be found -----here
+            {"Pdf version of the above resume can be found here ----"}
           </SectionSubText>
           <br />
         </>
