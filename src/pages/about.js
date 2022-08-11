@@ -1,5 +1,4 @@
 import React from "react";
-
 import Layout from "../layout/Layout";
 import About from "../components/about/About";
 

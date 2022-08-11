@@ -1,5 +1,6 @@
 const positions = [
   {
+    id: 0,
     company: "Dronebase",
     role: "Mobile Developer Intern",
     link: "https://dronebase.com/",
@@ -24,5 +25,5 @@ const positions = [
     ],
   },
 ];
- 
+
 export default positions;

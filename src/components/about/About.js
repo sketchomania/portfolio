@@ -48,7 +48,7 @@ const About = () => {
           <SectionSubText>{Strings.interestSubTex}</SectionSubText>
           <SectionPointsContainer>
             {Strings.interestList.map((item) => (
-              <li style={{ maxWidth: "max-content" }}>
+              <li style={{ maxWidth: "max-content" }} key={item}>
                 <SectionSubText>{item}</SectionSubText>
               </li>
             ))}

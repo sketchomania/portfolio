@@ -54,7 +54,7 @@ const Resume = () => {
             {"Experience"}
           </HeaderThree>
           {positions.map((position) => (
-            <article>
+            <article key={position.id}>
               <SectionTextMedium>{`${position.role} - ${position.company}`}</SectionTextMedium>
               <SectionSubText>{position.timeline}</SectionSubText>
               <SectionSubText>{position.summary}</SectionSubText>
@@ -88,7 +88,7 @@ const Resume = () => {
             {"Projects"}
           </HeaderThree>
           {data.map((project) => (
-            <article>
+            <article key={project.id}>
               <SectionSubText>
                 <LinkText href={project.visit} target="_blank">
                   {project.title}
@@ -109,7 +109,7 @@ const Resume = () => {
             {"Relevant Skills"}
           </HeaderThree>
           {skills.map((skill) => (
-            <article>
+            <article key={skill.type}>
               <SectionContainer>
                 <SectionSubText
                   style={{ fontWeight: 700, marginRight: "2rem" }}
