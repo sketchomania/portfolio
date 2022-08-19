@@ -149,6 +149,7 @@ const Resume = () => {
             </li>
           </SectionPointsContainer>
           <br />
+          <br />
         </>
 
         <>
@@ -163,6 +164,7 @@ const Resume = () => {
               </LinkText>
             }
           </SectionSubText>
+          <br />
           <br />
         </>
       </Section>

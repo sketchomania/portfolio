@@ -105,15 +105,20 @@ const About = () => {
         </>
 
         <>
+          <hr />
           <br />
+          <UnderlineGrow>
+            <SectionTitle>{"Resume"}</SectionTitle>
+          </UnderlineGrow>
           <br />
-          {
-            <SectionSubText>
+          <SectionSubText>
+            {"Pdf version of the resume can be found here → "}
+            {
               <LinkText href={"/vaibhav_kushwaha_resume.pdf"}>
                 <GradBorder>{"Resume"}</GradBorder>
               </LinkText>
-            </SectionSubText>
-          }
+            }
+          </SectionSubText>
           <br />
           <br />
         </>
