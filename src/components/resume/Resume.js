@@ -15,6 +15,7 @@ import {
   HeaderThree,
   LinkText,
   UnderlineGrow,
+  GradBorder,
 } from "../../styles/GlobalComponents";
 
 const Resume = () => {
@@ -155,7 +156,12 @@ const Resume = () => {
           <br />
           <SectionSubText>{"Last updated on August 2022."}</SectionSubText>
           <SectionSubText>
-            {"Pdf version of the above resume can be found here ----"}
+            {"Pdf version of the above resume can be found here → "}
+            {
+              <LinkText href={"/vaibhav_kushwaha_resume.pdf"}>
+                <GradBorder>{"Resume"}</GradBorder>
+              </LinkText>
+            }
           </SectionSubText>
           <br />
         </>

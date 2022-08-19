@@ -1,5 +1,6 @@
 import Strings from "../../constants/strings";
 import {
+  GradBorder,
   HeaderThree,
   LinkText,
   Section,
@@ -99,6 +100,20 @@ const About = () => {
           </SectionSubText>
           <ContactIcons />
           {/* </FlexDiv> */}
+          <br />
+          <br />
+        </>
+
+        <>
+          <br />
+          <br />
+          {
+            <SectionSubText>
+              <LinkText href={"/vaibhav_kushwaha_resume.pdf"}>
+                <GradBorder>{"Resume"}</GradBorder>
+              </LinkText>
+            </SectionSubText>
+          }
           <br />
           <br />
         </>
