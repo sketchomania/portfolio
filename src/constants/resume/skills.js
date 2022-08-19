@@ -13,20 +13,21 @@ const skills = [
       "ReactNative, ",
       "GraphQL, ",
       "Redux, ",
-      "Tailwind",
+      "Tailwind, ",
+      "Victory",
     ],
   },
   {
     type: "Tools: ",
-    typeList: ["Git, ", "Github, ", "Gitlab"],
+    typeList: ["Git, ", "npm, ", "Github, ", "Android Studio, ", "Gitlab"],
   },
   {
     type: "Platforms: ",
-    typeList: ["Heroku, ", "Vercel"],
+    typeList: ["Heroku, ", "Vercel, ", "Netlify"],
   },
   {
     type: "Databases: ",
-    typeList: ["MongoDB, ", "Cloud Databases"],
+    typeList: ["MongoDB, ", "Firebase, ", "Cloud Databases"],
   },
 ];
 

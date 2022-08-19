@@ -25,7 +25,7 @@ const Strings = {
   artworks: "Artworks 🎨",
   artworksDesc1: "Some 🖼 artworks made by me.",
   artworksDesc2: "• Love to do drawings and paintings as hobby.",
-  artworksDesc3: "• Also depends upon my mood.",
+  artworksDesc3: "• Also depends upon my Ideology.",
   // Technologies
   technologies: "Technologies",
   technologiesDescription: `I have worked with a range of technologies in the web development world. From Back-end to Design`,

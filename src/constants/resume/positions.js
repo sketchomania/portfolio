@@ -4,13 +4,14 @@ const positions = [
     company: "Dronebase",
     role: "Mobile Developer Intern",
     link: "https://dronebase.com/",
-    timeline: "Remote, July 2022 - Present",
+    timeline: "Remote, June 2022 - Present",
     summary: `Started with testing the User experience and existing features of the app. 
     Creating documentation for the app and gradually getting my hands on implementing new features to the app.
     `,
     points: [
       "Testing the features and user experience",
       "Implementing New features to the app",
+      "Providing apk build for testing",
       "Created Project Documentation",
       "Adding New frontend UI",
       "Fixing Design issues",
