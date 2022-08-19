@@ -19,42 +19,49 @@ import {
   TagList,
   TitleContent,
 } from "../projects/ProjectsStyles";
+import ContactMe from "../contact/ContactMe";
 
 const Artworks = () => {
   return (
-    <Section>
-      <UnderlineGrow lar>
-        <SectionTitle main>{Strings.artworks}</SectionTitle>
-      </UnderlineGrow>
-      <br />
-      <hr />
-      <UnderlineGrow>
-        <SectionText>{Strings.artworksDesc1}</SectionText>
-      </UnderlineGrow>
-      <SectionSubText>{Strings.artworksDesc2}</SectionSubText>
-      <SectionSubText>{Strings.artworksDesc3}</SectionSubText>
-      <GridContainer>
-        {data.map(({ id, title, subtitle, link, tags, date }) => (
-          <BlogCard key={id}>
-            <GradBorder>
-              <TitleContent>
-                <HeaderThree title>
-                  <GradText>{title}</GradText>
-                </HeaderThree>
-              </TitleContent>
-              <ArtImgContainer src={link} alt={`🖼 ${title} Image`} />
-              <CardInfo>✍{subtitle}</CardInfo>
-              <TitleContent>------- 🎨 tools used -------</TitleContent>
-              <TagList>
-                {tags.map((tag, i) => (
-                  <Tag key={i}>{tag}</Tag>
-                ))}
-              </TagList>
-            </GradBorder>
-          </BlogCard>
-        ))}
-      </GridContainer>
-    </Section>
+    <>
+      <Section>
+        <UnderlineGrow lar>
+          <SectionTitle main>{Strings.artworks}</SectionTitle>
+        </UnderlineGrow>
+        <br />
+        <hr />
+        <UnderlineGrow>
+          <SectionText>{Strings.artworksDesc1}</SectionText>
+        </UnderlineGrow>
+        <SectionSubText>{Strings.artworksDesc2}</SectionSubText>
+        <SectionSubText>{Strings.artworksDesc3}</SectionSubText>
+        <GridContainer>
+          {data.map(({ id, title, subtitle, link, tags, date }) => (
+            <BlogCard key={id}>
+              <GradBorder>
+                <TitleContent>
+                  <HeaderThree title>
+                    <GradText>{title}</GradText>
+                  </HeaderThree>
+                </TitleContent>
+                <ArtImgContainer src={link} alt={`🖼 ${title} Image`} />
+                <CardInfo>✍{subtitle}</CardInfo>
+                <TitleContent>------- 🎨 tools used -------</TitleContent>
+                <TagList>
+                  {tags.map((tag, i) => (
+                    <Tag key={i}>{tag}</Tag>
+                  ))}
+                </TagList>
+              </GradBorder>
+            </BlogCard>
+          ))}
+        </GridContainer>
+
+        <>
+          <ContactMe />
+        </>
+      </Section>
+    </>
   );
 };
 

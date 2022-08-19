@@ -10,6 +10,7 @@ import {
   UnderlineGrow,
 } from "../../styles/GlobalComponents";
 import ContactIcons from "../contact/ContactIcons";
+import ContactMe from "../contact/ContactMe";
 import {
   FlexDiv,
   SectionContainer,
@@ -77,31 +78,7 @@ const About = () => {
         </>
 
         <>
-          <hr />
-          <br />
-          <UnderlineGrow>
-            <SectionTitle>{Strings.contact}</SectionTitle>
-          </UnderlineGrow>
-          <br />
-          <SectionSubText>{Strings.contactSubText}</SectionSubText>
-          <FlexDiv>
-            <SectionSubText style={{ fontWeight: 700, marginRight: "4rem" }}>
-              {"Email:"}
-            </SectionSubText>
-            <SectionSubText>
-              <LinkText href="mailto:vaibhavvast6529@gmail.com">
-                {Strings.email}
-              </LinkText>
-            </SectionSubText>
-          </FlexDiv>
-          {/* <FlexDiv> */}
-          <SectionSubText style={{ fontWeight: 700 }}>
-            {Strings.alternateContact}
-          </SectionSubText>
-          <ContactIcons />
-          {/* </FlexDiv> */}
-          <br />
-          <br />
+          <ContactMe />
         </>
 
         <>
