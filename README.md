@@ -1,22 +1,32 @@
 # Personal Website
 
+![](/public/portfolio-preview.png)
 🌐: [vaibhavvast.tech](www.vaibhavvast.tech)
 
 My personal website. An easy modifiable, simple [NextJs](https://nextjs.org/), [Styled Components](https://styled-components.com/) application that deploys automatically for free using [Vercel](https://vercel.com/).
 <br />
 Build using modern JavaScript, based on [create-next-app](https://nextjs.org/docs/api-reference/create-next-app) with [Styled Components](https://styled-components.com/)
 
-## 🛠 Tech Stack Used
+## 🛠 Tech Stack Used :-
 
 - Next.js
 - Styled Components
 - Structured files & folder
+- HTML5 & CSS3
 
-## Getting Started
+## 🔖 Features :-
+
+- Responsive design
+- Light/Dark Theme
+- Theme Based styling
+- Following best practices
+- Component rich
+
+## Getting Started :-
 
 Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
 
-## 🛠 Installation and Setup Instructions
+## 🛠 Installation and Setup Instructions :-
 
 1. Installation:
 
@@ -37,7 +47,7 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.
 
-## Instructions
+## 📃 Instructions :-
 
 Open the project folder and Navigate to **/src/components/**.
 <br />
@@ -51,14 +61,3 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-### Todo later on
-
-- nav links to the different sections of portfolio
-- show icons for tech stack used
-- Resume
-  - a b c d e
-- color of the text specially long text
-- finish the resume pdf download part
-- project vedio recording for readme
-- project README

@@ -58,6 +58,8 @@ const Artworks = () => {
         </GridContainer>
 
         <>
+          <br />
+          <br />
           <ContactMe />
         </>
       </Section>
