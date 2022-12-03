@@ -69,7 +69,7 @@ export const Intro = styled.div`
 
 export const CardInfo = styled.p`
   width: 100%;
-  padding: 0 2rem;
+  padding: 0.5rem 2rem;
   color: ${(props) => props.theme.bg.sectionText};
   font-style: 2rem;
   line-height: 24px;

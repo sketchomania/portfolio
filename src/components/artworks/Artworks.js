@@ -45,7 +45,7 @@ const Artworks = () => {
                   </HeaderThree>
                 </TitleContent>
                 <ArtImgContainer src={link} alt={`🖼 ${title} Image`} />
-                <CardInfo>✍{subtitle}</CardInfo>
+                <CardInfo>✍ {subtitle}</CardInfo>
                 <TitleContent>------- 🎨 tools used -------</TitleContent>
                 <TagList>
                   {tags.map((tag, i) => (

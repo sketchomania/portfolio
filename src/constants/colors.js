@@ -3,7 +3,8 @@ const Colors = {
 
   white: "#ffffff",
   darkTextHover: "#FAFAFA",
-  lightBody: "#E2E2E2",
+  lightBody: "#FAFAFA",
+  // lightBody: "#E2E2E2",
   whiteTrans2: "rgba(255, 255, 255, 0.75)",
   whiteTrans: "rgba(255, 255, 255, 0.66)",
 
