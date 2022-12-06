@@ -117,7 +117,7 @@ export const LinkText = styled.a`
 
 export const GradBorder = styled.div`
   text-align: center;
-  border: 2px solid transparent;
+  border: 1.5px solid transparent;
   border-image: linear-gradient(
       90deg,
       ${(props) => props.theme.bg.gradStart} 0%,

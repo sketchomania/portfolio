@@ -25,7 +25,7 @@ export const GridContainer = styled.section`
 `;
 
 export const BlogCard = styled.div`
-  border-radius: 10px;
+  /* border-radius: 16px; */
   box-shadow: ${Colors.shadowContainer};
   text-align: center;
   width: 400px;
@@ -35,7 +35,7 @@ export const BlogCard = styled.div`
   transition: 0.3s;
   &:hover {
     width: 415px;
-    transform: scale(1.1);
+    transform: scale(1.06);
   }
 `;
 
@@ -83,6 +83,7 @@ export const TagList = styled.ul`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  /* justify-content: center; */
   padding: 0.5rem 1rem;
 `;
 
@@ -109,13 +110,21 @@ export const ExternalLinks = styled.a`
   font-size: 1.6rem;
   padding: 0.6rem 1.5rem;
   transition: 0.5s;
-  border: 1.8px solid cyan;
-  border-image: linear-gradient(
+  /* border: 1.8px solid cyan; */
+  border-radius: 8px;
+
+  background: linear-gradient(
+    90deg,
+    ${(props) => props.theme.bg.gradStartBlur} 25%,
+    ${(props) => props.theme.bg.gradEndBlur} 80%
+  );
+  box-shadow: ${Colors.shadowSmall};
+  /* border-image: linear-gradient(
       90deg,
-      ${(props) => props.theme.bg.gradStart} 0%,
-      ${(props) => props.theme.bg.gradEnd} 100%
+      ${(props) => props.theme.bg.gradStart} 25%,
+      ${(props) => props.theme.bg.gradEnd} 85%
     )
-    1;
+    1; */
   transition: 0.2s;
   &:hover {
     transform: scale(1.1);

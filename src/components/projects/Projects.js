@@ -43,7 +43,9 @@ const Projects = () => {
                   </HeaderThree>
                   {/* <Hr /> */}
                 </TitleContent>
-                <Img src={image} alt={`•${title} project Image`} />
+                <a href={visit} className={{ cursor: "pointer" }}>
+                  <Img src={image} alt={`•${title} project Image`} />
+                </a>
                 <CardInfo>🎯{subtitle}</CardInfo>
                 <Hr />
                 <div>
@@ -58,10 +60,10 @@ const Projects = () => {
                 </div>
                 <UtilityList>
                   <ExternalLinks target={"_blank"} href={source}>
-                    📚 Code
+                    📑 Code
                   </ExternalLinks>
                   <ExternalLinks target={"_blank"} href={visit}>
-                    ▶ Live
+                    🌐 Live
                   </ExternalLinks>
                 </UtilityList>
               </GradBorder>
