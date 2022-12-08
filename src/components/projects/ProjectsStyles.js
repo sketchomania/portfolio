@@ -3,10 +3,19 @@ import Colors from "../../constants/colors";
 
 export const Img = styled.img`
   width: 100%;
-  height: 100%;
-  max-height: 24rem;
+  /* height: 100%;
+  min-height: 20rem;
+  max-height: 20rem; */
+  height: 20rem;
   object-fit: cover;
   overflow: hidden;
+  background: linear-gradient(
+    90deg,
+    ${(props) => props.theme.bg.gradStartBlur} 25%,
+    ${(props) => props.theme.bg.gradEndBlur} 80%
+  );
+  color: ${(props) => props.theme.bg.sectionSubText};
+  display: flex;
 `;
 
 export const GridContainer = styled.section`

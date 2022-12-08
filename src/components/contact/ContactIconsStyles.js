@@ -16,7 +16,9 @@ export const StyledSocialIcons = styled.ul`
 export const Li = styled.li`
   padding: 4px;
   transition: 0.2s ease;
+  opacity: 0.75;
   &:hover {
+    opacity: 1;
     cursor: pointer;
     transform: scale(1.2);
     box-shadow: 0px 15px 10px -15px rgba(80, 78, 78, 1);

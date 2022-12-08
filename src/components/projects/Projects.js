@@ -44,7 +44,7 @@ const Projects = () => {
                   {/* <Hr /> */}
                 </TitleContent>
                 <a href={visit} className={{ cursor: "pointer" }}>
-                  <Img src={image} alt={`•${title} project Image`} />
+                  <Img src={image} alt={`• ${title} project Image`} />
                 </a>
                 <CardInfo>🎯{subtitle}</CardInfo>
                 <Hr />
