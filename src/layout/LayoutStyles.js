@@ -10,4 +10,8 @@ export const Container = styled.div`
 export const Main = styled.main`
   background-color: ${(props) => props.theme.bg.body};
   /* border: 1px solid gray; */
+  padding-top: 11.5rem;
+  @media ${(props) => props.theme.breakpoints.md} {
+    padding-top: 16rem;
+  }
 `;

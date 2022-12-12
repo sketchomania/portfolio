@@ -16,9 +16,10 @@ Build using modern JavaScript, based on [create-next-app](https://nextjs.org/doc
 
 ## 🔖 Features :-
 
-- Web and mobile Responsive design
+- Responsive design
 - Light/Dark Theme
 - Theme Based styling
+- Background Blur effect
 - Following best practices
 - Component rich Architecture
 

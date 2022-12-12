@@ -140,6 +140,15 @@ export const GradText = styled.span`
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
+  animation: animate 10s linear infinite;
+  @keyframes animate{
+    0%{
+      background-position: 0%;
+    }
+    100%{
+      background-position: 100%;
+    }
+  }
 `;
 
 export const UnderlineGrow = styled.span`

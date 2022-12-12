@@ -37,6 +37,7 @@ const light = {
     gradEndBlur: Colors.gradEndBlur,
     sectionText: Colors.darkBody,
     sectionSubText: Colors.darkGray,
+    blurBackground: Colors.lightBlurBackground,
   },
 };
 
@@ -52,7 +53,8 @@ const dark = {
     gradEnd: Colors.gradEnd,
     gradEndBlur: Colors.gradEndBlur,
     sectionText: Colors.lightBody,
-    sectionSubText: Colors.whiteTrans2,
+    sectionSubText: Colors.whiteTrans,
+    blurBackground: Colors.darkBlurBackground,
   },
 };
 

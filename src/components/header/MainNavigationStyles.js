@@ -6,7 +6,19 @@ export const Container = styled.header`
   grid-template-rows: 1fr;
   grid-column-gap: 2rem;
   padding: 3rem 1rem;
+  background: ${(props) => props.theme.bg.blurBackground};
+  /* background: linear-gradient(
+    90deg,
+    ${(props) => props.theme.bg.gradStartBlur} 25%,
+    ${(props) => props.theme.bg.gradEndBlur} 80%
+  ); */
+  position: fixed;
+  backdrop-filter: blur(16px);
+  z-index: 5;
 
+  @media ${(props) => props.theme.breakpoints.md} {
+    width: 100%;
+  }
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -54,8 +66,8 @@ export const NameContainer = styled.span`
   font-weight: 800;
   font-size: 4rem;
   padding: 0.5rem;
-  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
-  &:hover{
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  &:hover {
     text-shadow: none;
   }
 `;

@@ -5,8 +5,8 @@ const Colors = {
   darkTextHover: "#FAFAFA",
   lightBody: "#FAFAFA",
   // lightBody: "#E2E2E2",
-  whiteTrans2: "rgba(255, 255, 255, 0.75)",
-  whiteTrans: "rgba(255, 255, 255, 0.66)",
+  whiteTrans: "rgba(255, 255, 255, 0.75)",
+  // whiteTrans2: "rgba(255, 255, 255, 0.66)",
 
   black: "#000000",
   darkBody: "#171717",
@@ -30,6 +30,10 @@ const Colors = {
 
   shadowContainer: "0 0 20px rgba(80, 78, 78, 0.5)",
   shadowSmall: "0 0 5px rgba(80, 78, 78, 0.5)",
+
+  // appBar blur background
+  darkBlurBackground: "rgba(23, 23, 23, 0.8)",
+  lightBlurBackground: "rgba(250, 250, 250, 0.5)",
 };
 
 export default Colors;
