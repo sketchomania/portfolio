@@ -26,14 +26,15 @@ const Welcome = () => {
             <LinkText href={positions[0].link} target={"_blank"}>
               {positions[0].company}
             </LinkText>
+            {strings.shortIntro1}
           </SectionSubText>
         </UnderlineGrow>
         <br />
         <SectionSubText>
-          {strings.shortIntro1}
-          <br /> {strings.shortIntro2}
+          {/* <br /> */}
+          {strings.shortIntro2}
         </SectionSubText>
-        <br />
+        {/* <br /> */}
         <SectionSubText>{strings.shortIntro3}</SectionSubText>
         <br />
         <SectionSubText>

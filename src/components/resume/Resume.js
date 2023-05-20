@@ -59,6 +59,11 @@ const Resume = () => {
               <SectionTextMedium>{`${position.role} - ${position.company}`}</SectionTextMedium>
               <SectionSubText>{position.timeline}</SectionSubText>
               <SectionSubText>{position.summary}</SectionSubText>
+                <SectionSubText
+                  style={{ fontWeight: 700, marginRight: "2rem" }}
+                >
+                  {"My responsibilities include: "}
+                </SectionSubText>
               <SectionPointsContainer>
                 {position.points.map((point) => (
                   <li key={point}>

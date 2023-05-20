@@ -9,7 +9,7 @@ import {
   SectionTitle,
   UnderlineGrow,
 } from "../../styles/GlobalComponents";
-import ContactIcons from "../contact/ContactIcons";
+// import ContactIcons from "../contact/ContactIcons";
 import ContactMe from "../contact/ContactMe";
 import {
   FlexDiv,
@@ -23,7 +23,7 @@ const About = () => {
       <Section>
         <>
           <UnderlineGrow lar>
-            <SectionTitle main>About Me</SectionTitle>
+            <SectionTitle main>{Strings.aboutMe}</SectionTitle>
           </UnderlineGrow>
           <br />
           <hr />
@@ -37,7 +37,9 @@ const About = () => {
           <br />
           <SectionSubText>{Strings.aboutSubtext1}</SectionSubText>
           <SectionSubText>{Strings.aboutSubtext2}</SectionSubText>
+          <br />
           <SectionSubText>{Strings.aboutSubtext3}</SectionSubText>
+          <br />
           <SectionSubText>{Strings.aboutSubtext4}</SectionSubText>
           <br />
         </>
@@ -68,16 +70,6 @@ const About = () => {
         </>
 
         <>
-          <br />
-          <SectionSubText>
-            {Strings.knowMore}
-            <LinkText>{"my resume"}</LinkText>
-            {" page."}
-          </SectionSubText>
-          <br />
-        </>
-
-        <>
           <ContactMe />
         </>
 
@@ -88,6 +80,15 @@ const About = () => {
             <SectionTitle>{"Resume"}</SectionTitle>
           </UnderlineGrow>
           <br />
+          <>
+            <br />
+            <SectionSubText>
+              {Strings.knowMore}
+              <LinkText>{"my resume"}</LinkText>
+              {" page."}
+            </SectionSubText>
+            <br />
+          </>
           <SectionSubText>
             {"Pdf version of the resume can be found here → "}
             {

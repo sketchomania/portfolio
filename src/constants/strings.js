@@ -1,21 +1,21 @@
 const Strings = {
   // welcome
   fullName: "Vaibhav Kushwaha 👋",
+  // In addition to development, I’m also an artist who loves sketching, drawing, and painting. You can check out my artworks here: ➡ Artworks.""
   sayHi:
-    "Hey there! Welcome to my website. I'm Vaibhav Kushwaha - Mobile Developer Intern at ",
+    "Hey there! My name is Vaibhav Kushwaha and I’m an artist, developer, and learner. I’m currently working as a software engineer at ",
   shortIntro1: `
-    I'm currently pursuing my Bachelor in Computer Science and Engineering, at Kashi IST.
+    and pursuing my Bachelor’s degree in Computer Science and Engineering at Kashi IST.
     `,
   shortIntro2: `
-    An Aspiring developer trying to learn new technologies, sharing my experience and knowledge.
+    As an aspiring developer, I’m always trying to learn new technologies and share my experiences and knowledge.
   `,
   shortIntro3: `
-    I like building things and solving real life problems with creativity.
-    I also apply my passion for developing products with modern Library and Frameworks.
-    My most of the interest lies in building scalable services using hybrid, full-stack services using React Native, TypeScript, Graphql, Go.
+    I have a passion for building things and solving real-life problems creatively. 
+    I enjoy developing products using modern libraries and frameworks, with a particular interest in building scalable services using hybrid, full-stack technologies such as Go, React Native, TypeScript, and GraphQL.
   `,
   shortIntro4: `
-  Apart from development I'm an artist love to do sketching, drawing and Paintings, you can also checkout ➡
+    In addition to development, I’m also an artist who loves sketching, drawing, and painting. You can check out my artworks here: ➡
   `,
   // Projects
   projects: "Projects",
@@ -30,28 +30,29 @@ const Strings = {
   technologies: "Technologies",
   technologiesDescription: `I have worked with a range of technologies in the web development world. From Back-end to Design`,
   // About
-  about: "About Me",
+  aboutMe: "About Me",
   aboutSubtext: `Artist • Developer • Avid Learner`,
-  aboutSubtext1: `Hi, I'm Vaibhav Kushwaha from Varanasi India.`,
+  aboutSubtext1: `Hi, I’m Vaibhav Kushwaha from Varanasi, India.`,
   aboutSubtext2: `
-  I find it interesting to work and develop real world software projects. I like building things and solving real life problems with creativity.
+    I find it interesting to work on and develop real-world software projects. I enjoy building things and solving real-life problems creatively.  
   `,
   aboutSubtext3: `
-  My areas of Interests are building full stack apps using native and hybrid technologies. I apply my passion for developing products with modern Library and Frameworks.
-  Love to build projects while learning new technologies, you can also have a look at the project section.
+    My areas of interest include building full-stack apps using native and hybrid technologies. 
+    I apply my passion for developing products with modern libraries and frameworks and love to learn new technologies while building projects. 
+    You can have a look at my work in the project section.
   `,
   aboutSubtext4: `
-    I'm an Undergrad, pursuing Bachelor of Technology in Computer Science and Engineering at Kashi IST
-    My interest and experience lies in building full-stack services, also interested in mobile app development using modern Library and Frameworks.
+    I’m currently an undergraduate student pursuing a Bachelor of Technology degree in Computer Science and Engineering at Kashi IST. 
+    My experience and interests lie in building full-stack services and mobile app development using modern libraries and frameworks.
     `,
   // P.S. This website is open-source and available on Github.
   knowMore: `Know more about my working experience at `,
   // Interests
   interest: `Interests`,
-  interestSubTex: `Apart form development, there are many things I like to fill my time with:`,
+  interestSubTex: `Apart from development, I have many other interests that I like to fill my time with:`,
   interestList: [
     "📚 Reading Books",
-    "🎧 Listing podcasts",
+    "🎧 Listening to podcasts",
     "📸 Photography",
     "🎨 Drawing & Sketching",
     "🌌 Space 🛰",

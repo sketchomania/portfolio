@@ -23,11 +23,11 @@ const skills = [
   },
   {
     type: "Platforms: ",
-    typeList: ["Heroku, ", "Vercel, ", "Netlify"],
+    typeList: ["Render, ", "Vercel, ", "Netlify"],
   },
   {
     type: "Databases: ",
-    typeList: ["MongoDB, ", "Firebase, ", "Cloud Databases"],
+    typeList: ["MongoDB, ", "MySQL, ", "Firebase, ", "Cloud Databases"],
   },
 ];
 
