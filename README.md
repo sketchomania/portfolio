@@ -1,82 +1,45 @@
-# Personal Website
+# Vaibhav Kushwaha
 
-![](/public/portfolio-preview.png)
-🌐: [vaibhavvast.tech](www.vaibhavvast.tech)
+Personal portfolio for Vaibhav Kushwaha, a software developer since January 2023 with 3+ years building backend systems in Go and TypeScript. The site presents that experience, along with projects and artwork.
 
-My personal website. An easy modifiable, simple [NextJs](https://nextjs.org/), [Styled Components](https://styled-components.com/) application that deploys automatically for free using [Vercel](https://vercel.com/).
-<br />
-Build using modern JavaScript, based on [create-next-app](https://nextjs.org/docs/api-reference/create-next-app) with [Styled Components](https://styled-components.com/)
+Live site: [https://vaibhav-kushwaha.vercel.app/](https://vaibhav-kushwaha.vercel.app/)
 
-## 🛠 Tech Stack Used :-
+![Portfolio preview](./public/portfolio-preview.png)
+
+## Stack
 
 - Next.js
-- Styled Components
-- Structured files & folder
-- HTML5 & CSS3
+- React
+- styled-components
+- JavaScript
+- Vercel
 
-## 🔖 Features :-
+## Features
 
 - Responsive design
-- Light/Dark Theme
-- Theme Based styling
-- Background Blur effect
-- Following best practices
-- Component rich Architecture
+- Light and dark theme (dark by default)
+- Resume and experience
+- Projects
+- Artwork and contact (contact is on the about and artwork pages)
 
-## Getting Started :-
+## Local setup
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+From the repository root, with Node.js and npm installed:
 
-## 🛠 Installation and Setup Instructions :-
+```bash
+npm install
+npm run dev
+npm run build
+```
 
-1. Installation:
+`npm run dev` serves the site at [http://localhost:4000](http://localhost:4000). `npm run build` produces a production build.
 
-   ```bash
-   npm install
-   ```
+## Repository layout
 
-2. Build the project
-   ```bash
-   npm run build
-   ```
-3. In the project directory, you can run the development server:
-   ```bash
-   npm run dev
-   ```
+- `src/pages` — home, projects, artworks, about, and resume routes
+- `src/components` — section UI, including contact
+- `src/constants` — copy, project entries, resume data, and artwork entries
+- `src/styles` and `src/themes` — shared styles and the light and dark themes
+- `public` — static files, including the preview image
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
-
-## 📃 Instructions :-
-
-Open the project folder and Navigate to **/src/components/**.
-<br />
-You will find all the components used and you can edit accordingly or play around.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Todo
-
-- Add fonts
-- change site icon
-- projects section
-  - work
-  - side projects
-    - next js meetups app https://meetups-app-next-js.vercel.app/
-    - news app RN
-    - google keep clone enhanced version
-    - next js portfolio
-    - fitzee rn ui app with figma
-  - practice
-    - go fun
-    - deepgram topic detection
-
-## Contributing
+Site copy and entries live in `src/constants`. Section layout lives in `src/components`.
